@@ -26,21 +26,23 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="nav nav-social-links flex items-center gap-4 p-2">
-            <div className="social-icon cursor-pointer">
-              <FaTwitter />
+          <div className="third flex gap-2">
+            <div className="nav nav-social-links flex items-center gap-4 p-2">
+              <div className="social-icon cursor-pointer">
+                <FaTwitter />
+              </div>
+              <div className="social-icon cursor-pointer">
+                <FaInstagram />
+              </div>
+              <div className="social-icon cursor-pointer">
+                <FaFacebook />
+              </div>
             </div>
-            <div className="social-icon cursor-pointer">
-              <FaInstagram />
-            </div>
-            <div className="social-icon cursor-pointer">
-              <FaFacebook />
-            </div>
-          </div>
 
-          <div className="nav hamburger-menu">
-            <div className="ham-icon cursor-pointer">
-              <RxHamburgerMenu className="text-4xl" />
+            <div className="nav hamburger-menu">
+              <div className="ham-icon cursor-pointer">
+                <RxHamburgerMenu className="text-4xl" />
+              </div>
             </div>
           </div>
         </header>
