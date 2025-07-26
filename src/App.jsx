@@ -1,10 +1,17 @@
-import { useState } from "react";
 import "./App.css";
+import Navbar from "./component/Navbar";
+
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-400">Hello</h1>
+      <Navbar />
+      <div className="container mx-auto px-32">
+        <section id="home">
+          <Home />
+        </section>
+      </div>
     </>
   );
 }
