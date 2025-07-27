@@ -22,7 +22,8 @@ const Navbar = () => {
 
           <div className="nav nav-logo">
             <a href="#home" className="text-2xl font-bold cursor-pointer">
-              NFN NEWS
+              NF<span className=" inline text-[var(--accent-color)]">N</span>{" "}
+              NEWS
             </a>
           </div>
 

@@ -1,3 +1,5 @@
+import placeholderImage from "/placeholder.png";
+
 const NewsCard = ({ News }) => {
   return (
     <div className="news-cards">
@@ -5,7 +7,7 @@ const NewsCard = ({ News }) => {
         <div className="card-left rounded-sm w-full h-[300px] overflow-hidden">
           <img
             className="w-full h-full object-cover overflow-hidden rounded-2xl"
-            src={News.urlToImage}
+            src={News.urlToImage ? News.urlToImage : placeholderImage}
             alt={News.title}
           />
         </div>

@@ -10,7 +10,7 @@ const Home = () => {
       const { data } = await getNews();
       if (data) {
         const shuffled = [...data].sort(() => Math.random() - 0.5);
-        setNews(shuffled.slice(0, 5));
+        setNews(shuffled.slice(0, 10));
       }
     }
 

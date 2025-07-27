@@ -3,6 +3,8 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
+import placeholderImage from "/placeholder.png";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -31,7 +33,11 @@ function TrendingNewsSlider({ topHeadlines }) {
                 <div className="slider-left rounded-2xl w-[500px] h-[300px] flex-shrink-0 overflow-hidden">
                   <img
                     className="w-full h-full object-cover overflow-hidden rounded-2xl"
-                    src={topHeadline.urlToImage}
+                    src={
+                      topHeadline.urlToImage
+                        ? topHeadline.urlToImage
+                        : placeholderImage
+                    }
                     alt={topHeadline.title}
                   />
                 </div>

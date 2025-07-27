@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./component/Navbar";
 import BusinessNews from "./pages/Home/BusinessNews";
 import EntertainmentNews from "./pages/Home/EntertainmentNews";
+import Footer from "./pages/Home/Footer";
 import GeneralNews from "./pages/Home/GeneralNews";
 import HealthNews from "./pages/Home/HealthNews";
 
@@ -50,6 +51,9 @@ function App() {
 
         <section id="technology-news">
           <TechnologyNews />
+        </section>
+        <section id="footer">
+          <Footer />
         </section>
       </div>
     </>
