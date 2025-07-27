@@ -1,50 +1,61 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/autoplay"; // Don't forget to import autoplay styles if you plan to use them
 
-// import required modules
-import { Navigation, Pagination } from "swiper/modules";
+function TrendingNewsSlider({ topHeadlines }) {
+  console.log(topHeadlines);
 
-function TrendingNewsSlider() {
   return (
     <div className="headline-sliders">
       <Swiper
-        pagination={true}
-        modules={[Pagination]}
-        autoplay="true"
+        pagination
+        modules={[Pagination, Navigation, Autoplay]}
+        loop
+        // autoplay={{
+        //   delay: 5000,
+        //   disableOnInteraction: false,
+        // }}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="news-slider flex items-center gap-10">
-            <div className="slider-left w-120 rounded-2xl">
-              <img
-                className="w-full h-full object-cover overflow-hidden rounded-2xl"
-                src="https://preview.colorlib.com/theme/magdesign/images/post_lg_2.jpg.webp"
-                alt=""
-              />
-            </div>
-            <div className="slider-right flex flex-col gap-2">
-              <div className="news-category flex gap-2">
-                <div className="category font-bold">Business, Travel</div>
-                <div className="news-date text-gray-400">July 2, 2022</div>
+        {topHeadlines.map((topHeadline) => {
+          return (
+            <SwiperSlide key={topHeadline.id}>
+              <div className="news-slider flex items-center gap-10 overflow-hidden">
+                <div className="slider-left rounded-2xl w-[500px] h-[300px] flex-shrink-0 overflow-hidden">
+                  <img
+                    className="w-full h-full object-cover overflow-hidden rounded-2xl"
+                    src={topHeadline.urlToImage}
+                    alt={topHeadline.title}
+                  />
+                </div>
+                <div className="slider-right flex flex-col gap-2">
+                  <div className="news-category flex gap-2">
+                    <div className="category font-bold">Published In</div>
+                    <div className="news-date text-gray-400">
+                      {topHeadline.publishedAt.slice(0, 10)}
+                    </div>
+                  </div>
+                  <div className="news-headline text-4xl font-bold">
+                    {topHeadline.title}
+                  </div>
+                  <div className="news-desc text-gray-400">
+                    {topHeadline.description}
+                  </div>
+                  <div className="news-source font-bold">
+                    {topHeadline.author}
+                  </div>
+                </div>
               </div>
-              <div className="news-headline text-4xl font-bold">
-                COVID 19 on the move again
-              </div>
-              <div className="news-desc text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Perferendis, facere.
-              </div>
-              <div className="news-source font-bold">BBC News</div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </div>
   );

@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
 
           <div className="third flex gap-2">
-            <div className="nav nav-social-links flex items-center gap-4 p-2">
+            <div className="nav nav-social-links flex items-center gap-4 p-2 pr-0 md:pr-20 lg:pr-40">
               <div className="social-icon cursor-pointer">
                 <FaTwitter />
               </div>
