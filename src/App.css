@@ -75,6 +75,10 @@ body {
     background-color: green; /* light blue */
   }
 
+  .section-heading {
+    margin: 2.5rem 0 -1rem 0;
+  }
+
   .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
     margin-top: -4rem;
     position: relative;

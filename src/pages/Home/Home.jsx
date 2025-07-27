@@ -9,7 +9,8 @@ const Home = () => {
     async function fetchNews() {
       const { data } = await getNews();
       if (data) {
-        setNews(data.slice(0, 5));
+        const shuffled = [...data].sort(() => Math.random() - 0.5);
+        setNews(shuffled.slice(0, 5));
       }
     }
 

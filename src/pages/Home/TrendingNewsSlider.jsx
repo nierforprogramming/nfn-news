@@ -52,7 +52,15 @@ function TrendingNewsSlider({ topHeadlines }) {
                     {topHeadline.description}
                   </div>
                   <div className="news-source font-bold">
-                    {topHeadline.author}
+                    {topHeadline.author ? topHeadline.author : "Unkown"}
+
+                    {topHeadline.author ? (
+                      <p className="text-gray-400 font-normal">Author</p>
+                    ) : (
+                      <p className="text-gray-400 font-normal">
+                        Unknown Author
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
