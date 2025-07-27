@@ -17,11 +17,14 @@ function TrendingNewsSlider({ topHeadlines }) {
       <Swiper
         pagination
         modules={[Pagination, Navigation, Autoplay]}
-        loop
-        // autoplay={{
-        //   delay: 5000,
-        //   disableOnInteraction: false,
-        // }}
+        loop={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        style={{
+          "--swiper-pagination-color": "var(--accent-color)",
+        }}
         className="mySwiper"
       >
         {topHeadlines.map((topHeadline) => {
