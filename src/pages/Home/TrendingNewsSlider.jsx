@@ -10,14 +10,11 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay"; // Don't forget to import autoplay styles if you plan to use them
 
 function TrendingNewsSlider({ topHeadlines }) {
-  console.log(topHeadlines);
-
   return (
     <div className="headline-sliders">
       <Swiper
         pagination
         modules={[Pagination, Navigation, Autoplay]}
-        loop={true}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
