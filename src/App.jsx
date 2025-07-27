@@ -15,7 +15,7 @@ import TechnologyNews from "./pages/Home/TechnologyNews";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container mx-auto px-32">
         <section id="home">
           <Home />
@@ -52,9 +52,9 @@ function App() {
         <section id="technology-news">
           <TechnologyNews />
         </section>
-        <section id="footer">
+        {/* <section id="footer">
           <Footer />
-        </section>
+        </section> */}
       </div>
     </>
   );

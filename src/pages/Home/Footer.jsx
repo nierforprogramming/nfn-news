@@ -5,18 +5,21 @@ const Footer = () => {
   return (
     <div className="footer-container pb-20 pt-24">
       <div className="footer-wrapper">
-        <div className="footer-cta bg-gray-300">
-          <div className="f-cta-heading text-2xl font-bold">
+        <div className="footer-cta bg-gray-100">
+          <div className="f-cta-heading text-2xl font-bold mb-1 px-32 pt-10">
             <h1>Subscribe to newsletter</h1>
           </div>
-          <div className="f-cta-inputs">
+          <div className="f-cta-inputs px-32 pb-10">
             <input
               placeholder="Enter your email"
               type="email"
               name="email"
               id="email"
+              className="bg-white w-[60%] outline-none border border-gray-300 p-2"
             />
-            <button>SUBSCRIBE</button>
+            <button className="ml-8 rounded-full bg-[var(--accent-color)] w-[30%] p-2 text-white hover:bg-white hover:text-[var(--accent-color)]">
+              SUBSCRIBE
+            </button>
           </div>
         </div>
         <div className="footer-social-links flex flex-col items-center pt-16">
