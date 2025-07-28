@@ -7,7 +7,8 @@ const Home = () => {
 
   useEffect(() => {
     async function fetchNews() {
-      const { data } = await getNews();
+      const returnedData = await getNews();
+      const data = returnedData.data.articles;
       if (data) {
         const shuffled = [...data].sort(() => Math.random() - 0.5);
         setNews(shuffled.slice(0, 10));

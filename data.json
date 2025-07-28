@@ -1,240 +1,253 @@
 {
-  "status": "ok",
-  "totalResults": 34,
-  "articles": [
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
+  "data": {
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Suntimes.com"
+        },
+        "author": "Georgia Nicols",
+        "title": "Horoscope for Sunday, July 27, 2025 - Chicago Sun-Times",
+        "description": null,
+        "url": "https://chicago.suntimes.com/horoscopes/2025/07/27/horoscopes-today-sunday-july-27-2025",
+        "urlToImage": "https://cst.brightspotcdn.com/dims4/default/2145dbd/2147483647/strip/true/crop/870x497+0+67/resize/1461x834!/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fac%2Ffd%2F790f04b15195427014757adc0272%2Fgeorgia-nicols.jpg",
+        "publishedAt": "2025-07-27T05:01:00Z",
+        "content": "Moon Alert\r\nThere are no restrictions to shopping or important decisions today. The moon is in Virgo.\r\nAries (March 21-April 19)\r\n This is an excellent day to work with others because you will accomp… [+3967 chars]"
       },
-      "author": "Brad Lendon",
-      "title": "Thai-Cambodian conflict pits a well-equipped US ally against a weaker adversary with strong China links - CNN",
-      "description": "The deadly conflict on the Thai-Cambodian border pits a longtime United States ally with decades of experience against a relatively young armed force with close ties to China.",
-      "url": "https://www.cnn.com/2025/07/25/asia/thailand-cambodia-conflict-military-comparison-intl-hnk-ml",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1246329694-20250725081507234.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2025-07-26T06:13:00Z",
-      "content": "The deadly conflict on the Thai-Cambodian border pits a longtime United States ally with decades of experience against a relatively young armed force with close ties to China.\r\nBangkok and Phnom Penh… [+6789 chars]"
-    },
-    {
-      "source": {
-        "id": "associated-press",
-        "name": "Associated Press"
+      {
+        "source": {
+          "id": null,
+          "name": "Deadline"
+        },
+        "author": "Natalie Oganesyan",
+        "title": "‘Swamp People’ Star Junior Edwards Dies - Deadline",
+        "description": "Junior Edwards, one of the original cast members of the History Channel's 'Swamp People', has died. No cause of death or further details were shared.",
+        "url": "http://deadline.com/2025/07/swamp-people-star-junior-edwards-dead-1236469864/",
+        "urlToImage": "https://deadline.com/wp-content/uploads/2025/07/Screenshot-2025-07-26-at-6.10.12 PM.png?w=1024",
+        "publishedAt": "2025-07-27T01:38:00Z",
+        "content": "Junior Edwards, one of the original cast members of the History Channel‘s Swamp People, has died, per a Facebook announcement posted by his grandson and co-star “Little” Willie Edwards.\r\n“Rest easy p… [+1761 chars]"
       },
-      "author": null,
-      "title": "Nick Kurtz of Athletics becomes 1st MLB rookie to hit 4 homers in a game, matches total base record - AP News",
-      "description": "Nick Kurtz of the Athletics has become the first rookie in Major League Baseball history to hit four home runs in a game. He also matched the MLB record with 19 total bases against the Houston Astros on Friday night. Kurtz went deep in the second, sixth, eigh…",
-      "url": "https://apnews.com/article/athletics-nick-kurtz-four-homers-0e227910a0cd690ef26df5c9f45130a6",
-      "urlToImage": "https://dims.apnews.com/dims4/default/606223a/2147483647/strip/true/crop/6111x3437+0+318/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa1%2Fdf%2Fe96f33cde0a799afc877d80a98ab%2Ffbf7f79a4d90409ab871b31072628137",
-      "publishedAt": "2025-07-26T05:01:00Z",
-      "content": "HOUSTON (AP) Nick Kurtz already had three homers and five hits with his parents and godparents in attendance as he began his final at-bat with a chance to make history, but none of that was top of mi… [+3320 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hollywood Reporter"
+      {
+        "source": {
+          "id": "entertainment-weekly",
+          "name": "Entertainment Weekly"
+        },
+        "author": "https://www.facebook.com/entertainmentweekly",
+        "title": "Rebecca Romijn on filming Avengers and Star Trek simultaneously: 'It's surreal and overwhelming' - ew.com",
+        "description": "'Avengers: Doomsday' and 'Star Trek: Strange New Worlds' star Rebecca Romijn commented on filming both projects simultaneously at Comic-Con.",
+        "url": "https://ew.com/rebecca-romijn-filming-avengers-star-trek-simultaneously-11779778",
+        "urlToImage": "https://ew.com/thmb/c_QJZ1Smb_yhebluQ7WVlK4UFDc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Rebecca-Romijn-072625-c554ba5f343845b990bb83b9def22af1.jpg",
+        "publishedAt": "2025-07-26T23:24:36Z",
+        "content": "Rebecca Romijn received a lot of love from the geek community gathered at Comic-Con on Saturday, not just for her role on Star Trek: Strange New Worlds, but also Avengers: Doomsday.\r\nThe actress repr… [+2145 chars]"
       },
-      "author": "McKinley Franklin",
-      "title": "Gwyneth Paltrow Becomes “Temporary Spokesperson” for Astronomer Amid Coldplay Kiss-Cam Scandal - The Hollywood Reporter",
-      "description": "The controversy stemmed from a Boston concert held by none other than Paltrow’s ex-husband's band.",
-      "url": "http://www.hollywoodreporter.com/news/music-news/gwyneth-paltrow-coldplay-kiss-cam-scandal-astronomer-1236330136/",
-      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/07/GettyImages-1780960863-e1753505154353.jpg?w=1440&h=810&crop=1",
-      "publishedAt": "2025-07-26T04:51:32Z",
-      "content": "In a surprising turn of events, Gwyneth Paltrow has become a “temporary spokesperson” for Astronomer in the wake of the viral Coldplay kiss-cam moment involving the company’s former CEO and chief peo… [+1916 chars]"
-    },
-    {
-      "source": {
-        "id": "associated-press",
-        "name": "Associated Press"
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Borys Kit",
+        "title": "‘Star Trek: Strange New Worlds’ Delights Comic-Con With Upcoming Episode, Teases All-Puppet Installment - The Hollywood Reporter",
+        "description": "“We think of you all the time when we are in the writers room and we always talk about what would the fans want and love,” exec producer Akiva Goldsman told supporters in Hall H.",
+        "url": "http://www.hollywoodreporter.com/tv/tv-news/star-trek-strange-new-worlds-comic-con-puppet-episode-1236330327/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/07/Pike-Puppet.jpg?w=1440&h=810&crop=1",
+        "publishedAt": "2025-07-26T22:30:31Z",
+        "content": "Star Trek: Strange New Worlds boldly went exactly where fans wanted them to go with its San Diego Comic-Con panel, delivering a fun presentation that also gave the 6,500-strong crowd in the cavernous… [+2872 chars]"
       },
-      "author": null,
-      "title": "Suspect arrested after University of New Mexico dorm shooting leaves 1 dead - AP News",
-      "description": "A 14-year-old boy has been killed and a 19-year-old has been wounded after in overnight shooting at a University of New Mexico dormitory. Authorities have arrested an 18-year-old suspect. University officials lifted a shelter in place order late Friday aftern…",
-      "url": "https://apnews.com/article/dorm-shooting-university-new-mexico-albuquerque-dcb395e35a2c1843a0d3c78147d1d84d",
-      "urlToImage": "https://dims.apnews.com/dims4/default/e5724be/2147483647/strip/true/crop/4752x2673+0+248/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd8%2F23%2F34bfa96a3c831102d86d2ecf6867%2Fb8568ede4ff545518222d3d664aa42f2",
-      "publishedAt": "2025-07-26T04:29:00Z",
-      "content": "ALBUQUERQUE, N.M. (AP) A shooting early Friday at a University of New Mexico dormitory killed a 14-year-old boy, wounded a 19-year-old and prompted the evacuation of hundreds of students and a campus… [+4183 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Variety"
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Ryan Gajewski",
+        "title": "'Project Hail Mary': Ryan Gosling Debuts Footage at Comic-Con - The Hollywood Reporter",
+        "description": "Phil Lord and Christopher Miller helmed the Amazon MGM Studios sci-fi feature that hits theaters next year.",
+        "url": "http://www.hollywoodreporter.com/movies/movie-news/project-hail-mary-ryan-gosling-footage-comic-con-1236330320/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/06/Project-Hail-Mary-trailer.jpg?w=1296&h=730&crop=1",
+        "publishedAt": "2025-07-26T22:27:33Z",
+        "content": "Project Hail Mary’s newly revealed footage was greeted with huge laughter during the Amazon MGM Studios feature’s San Diego Comic-Con panel.\r\nRyan Gosling, directors Phil Lord and Christopher Miller,… [+3002 chars]"
       },
-      "author": "William Earl",
-      "title": "David Letterman Blasts CBS for Stephen Colbert 'Late Show' Cancellation - Variety",
-      "description": "David Letterman took aim at his former employer, CBS, over the cancellation of 'The Late Show With Stephen Colbert.",
-      "url": "https://variety.com/2025/tv/news/david-letterman-stephen-colbert-the-late-show-1236471020/",
-      "urlToImage": "https://variety.com/wp-content/uploads/2015/04/the-late-show-with-david-letterman.jpg?w=1000&h=563&crop=1",
-      "publishedAt": "2025-07-26T01:26:00Z",
-      "content": "David Letterman unloaded on CBS and Skydance on Friday for cancelling “The Late Show,” which he launched 32 years ago, saying the network had mistreated his successor, Stephen Colbert.\r\nIn an intervi… [+2623 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "New York Post"
+      {
+        "source": {
+          "id": null,
+          "name": "Marvel Entertainment"
+        },
+        "author": "Marvel",
+        "title": "SDCC 2025: 'Ultimate Endgame' and the Final Issue of 'Ultimate Spider-Man' Revealed - Marvel",
+        "description": "'Ultimate Spider-Man' #24, the final issue of Jonathan Hickman and Marco Checchetto's hit run, and 'Ultimate Endgame' #1, the start of a five-issue event series by Deniz Camp, Jonas Scharf and more, hit stands in December.",
+        "url": "https://www.marvel.com/articles/comics/ultimate-endgame-final-issue-of-ultimate-spider-man-revealed-san-diego-comic-con",
+        "urlToImage": "https://cdn.marvel.com/content/1x/ultendgame2025001_chew_foil.jpg",
+        "publishedAt": "2025-07-26T21:32:09Z",
+        "content": "ULTIMATE ENDGAME #1 (OF 5)Written by DENIZ CAMPArt by JONAS SCHARF &amp; MORECover by MARK BROOKSFoil Variant Cover by DERRICK CHEWOn Sale 12/31\r\nTeased last week, ULTIMATE ENDGAME delivers the momen… [+1904 chars]"
       },
-      "author": "Ryan Giancola",
-      "title": "Inter Miami blasts MLS for ‘draconian’ suspension of Lionel Messi - New York Post",
-      "description": "Inter Miami is furious about the suspension of their two key players.",
-      "url": "https://nypost.com/2025/07/25/sports/inter-miami-blasts-mls-for-draconian-suspension-of-lionel-messi/",
-      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/07/newspress-collage-edr4lyl1m-1753490867870.jpg?quality=75&strip=all&1753476499&w=1024",
-      "publishedAt": "2025-07-26T00:48:00Z",
-      "content": "Inter Miami CF is furious about the suspension of two key players.\r\nBoth Lionel Messi and Jordi Alba will be forced to miss one game after sitting out of the MLS All-Star Game, and the clubs co-owner… [+1985 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
+      {
+        "source": {
+          "id": null,
+          "name": "Variety"
+        },
+        "author": "Adam B. Vary",
+        "title": "‘Star Trek: Starfleet Academy’ Debuts Hopeful First Trailer With Holly Hunter and Paul Giamatti - Variety",
+        "description": "“Star Trek: Starfleet Academy\" debuted its first trailer at San Diego Comic-Con.",
+        "url": "https://variety.com/2025/tv/news/star-trek-starfleet-academy-trailer-1236471287/",
+        "urlToImage": "https://variety.com/wp-content/uploads/2025/07/SFA_101_BP_0913_0383_RT.jpg?crop=0px%2C35px%2C1800px%2C1013px&resize=1000%2C563",
+        "publishedAt": "2025-07-26T21:00:00Z",
+        "content": "“Star Trek: Starfleet Academy,” the newest series in the nearly 60-year-old franchise, warped into San Diego Comic-Con on Saturday with an introduction of its full cast and the first trailer for the … [+3769 chars]"
       },
-      "author": "Adam Taylor, John Hudson, Karen DeYoung",
-      "title": "Amid starvation scenes in Gaza, Trump administration hardens tone on Hamas - washingtonpost.com",
-      "description": "Militants “didn’t want to make” a deal, Trump said after U.S., Israeli ceasefire negotiators pulled back from talks.",
-      "url": "https://www.washingtonpost.com/national-security/2025/07/25/gaza-hunger-trump-hamas-ceasefire/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JAW6VNUA3LMCW34BEPM3CFSMOQ.jpg&w=1440",
-      "publishedAt": "2025-07-26T00:38:51Z",
-      "content": "Amid growing alarm about mass starvation in Gaza and images of Palestinians suffering from severe malnutrition, the Trump administration is hardening its tone toward Hamas, blaming it for the humanit… [+9883 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
+      {
+        "source": {
+          "id": null,
+          "name": "Superdeluxeedition.com"
+        },
+        "author": null,
+        "title": "Madonna’s Veronica Electronica coming to CD - SuperDeluxeEdition",
+        "description": null,
+        "url": "https://superdeluxeedition.com/news/madonnas-veronica-electronica-coming-to-cd/",
+        "urlToImage": null,
+        "publishedAt": "2025-07-26T20:31:46Z",
+        "content": "Madonna’sVeronica Electronica EP, or mini-album, or whatever you want to call it, was released yesterday on ‘silver’ coloured vinyl and Warners have just announced a CD version for later this year.\r\n… [+1093 chars]"
       },
-      "author": null,
-      "title": "Trump and golf - striking balls and deals over 18 holes - BBC",
-      "description": "For some US presidents, golf was a break from work - but for Trump, visiting Scotland this weekend, it is anything but.",
-      "url": "https://www.bbc.com/news/articles/cly2y4w47deo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/574f/live/46253380-6962-11f0-89ea-4d6f9851f623.jpg",
-      "publishedAt": "2025-07-26T00:33:54Z",
-      "content": "Anthony ZurcherNorth America correspondent\r\nTrump at his National Golf Club in Sterling, Virginia\r\nMick Mulvaney thought he had beaten Donald Trump. The president and his White House chief of staff w… [+8323 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hindustan Times"
+      {
+        "source": {
+          "id": null,
+          "name": "Louder"
+        },
+        "author": "Stef Lach",
+        "title": "\"Ozzy would always tell me how he loved Ronnie.\" Vinny Appice says rumours of beef between Ozzy and Dio were untrue - Louder",
+        "description": "Ozzy surely hated the man who replaced him in Black Sabbath, right? Nope",
+        "url": "https://www.loudersound.com/bands-artists/ozzy-would-always-tell-me-how-he-loved-ronnie-vinny-appice-says-rumours-of-beef-between-ozzy-and-dio-were-untrue",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/dphtifaeJy4uJmyVUhUzkj.png",
+        "publishedAt": "2025-07-26T20:27:59Z",
+        "content": "Longstanding rumours of a beef between Ozzy Osbourne and Ronnie James Dio – the man who replaced him in Black Sabbath – have been shot down by former Sabbath drummer Vinny Appice.\r\nWhen Sabbath fired… [+1855 chars]"
       },
-      "author": "Shuvrajit Das Biswas",
-      "title": "Where was ‘Happy Gilmore 2’ filmed? All locations from Netflix's Adam Sandler sequel | Hollywood - Hindustan Times - Hindustan Times",
-      "description": "‘Happy Gilmore 2’ sees Gilmore return to golf after his retirement following the Tour Championship win, to finance his daughter's ballet classes.&nbsp; | Hollywood",
-      "url": "https://www.hindustantimes.com/entertainment/hollywood/where-was-happy-gilmore-2-filmed-all-locations-from-netflixs-adam-sandler-sequel-101753487389069.html",
-      "urlToImage": "https://www.hindustantimes.com/ht-img/img/2025/07/26/1600x900/haoppygilmore_1753489372917_1753489381815.jpg",
-      "publishedAt": "2025-07-26T00:26:24Z",
-      "content": "'Happy Gilmore 2' stars Adam Sandler as the eponymous character in the Netflix sequel to the 1996 hit. Sandler is back as golfer Happy Gilmore, who returns to the game after his retirement following … [+3168 chars]"
-    },
-    {
-      "source": {
-        "id": "nbc-news",
-        "name": "NBC News"
+      {
+        "source": {
+          "id": null,
+          "name": "Rolling Stone"
+        },
+        "author": "Daniel Kreps",
+        "title": "Billy Joel Drops Massive 115-Song ‘And So It Goes’ Companion Playlist - Rolling Stone",
+        "description": "Billy Joel has dropped a massive 155-song 'And So It Goes' companion album on digital services featuring unreleased recordings and more.",
+        "url": "http://www.rollingstone.com/music/music-news/billy-joel-and-so-it-goes-companion-playlist-1235394673/",
+        "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/07/GettyImages-2183952442.jpg?w=1600&h=900&crop=1",
+        "publishedAt": "2025-07-26T20:12:08Z",
+        "content": "Following the premiere of the second part of Billy Joel’s And So It Goes documentary, the Piano Man dropped a massive 155-song companion album on digital services featuring unreleased recordings and … [+1581 chars]"
       },
-      "author": "Nnamdi Egwuonwu, Gary Grumbach",
-      "title": "Federal judge dismisses Trump administration's lawsuit against Chicago over its sanctuary city policies - NBC News",
-      "description": "A federal judge dismissed a lawsuit by the Trump administration that sought to block the enforcement of several \"sanctuary policies\" in Illinois that restrict the ability of local officials to aid federal immigration authorities in detainment operations",
-      "url": "https://www.nbcnews.com/politics/trump-administration/federal-judge-dismisses-trump-administrations-lawsuit-chicago-sanctuar-rcna221197",
-      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-07/250712-trump-bondi-RM-f60efa.jpg",
-      "publishedAt": "2025-07-26T00:14:00Z",
-      "content": "A federal judge dismissed a lawsuit by the Trump administration that sought to block the enforcement of several \"sanctuary policies\" in Illinois that restrict the ability of local officials to aid fe… [+4825 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "New York Post"
+      {
+        "source": {
+          "id": null,
+          "name": "Variety"
+        },
+        "author": "Michael Schneider",
+        "title": "‘The Simpsons’ Upcoming Guests Include Kieran Culkin, Viola Davis, Idris Elba; Matt Groening on How to Liberate Parents from MAGA: ‘Delete Fox News’ - Variety",
+        "description": "'The Simpsons' Season 37 guests include Kieran Culkin, Glenn Howerton, Albert Brooks, Cole Escola, Idris Elba, Michael Keaton and Viola Davis.",
+        "url": "https://variety.com/2025/tv/news/the-simpsons-guest-stars-matt-groening-maga-delete-fox-news-1236471164/",
+        "urlToImage": "https://variety.com/wp-content/uploads/2023/12/TheSimpsons.jpg?w=1000&h=563&crop=1",
+        "publishedAt": "2025-07-26T19:39:00Z",
+        "content": "Kieran Culkin (“Succession”), Glenn Howerton (“It’s Always Sunny in Philadelphia”), Albert Brooks and Cole Escola (“Oh Mary”) are among the guest stars stopping by Springfield during the upcoming Sea… [+3962 chars]"
       },
-      "author": "Bryan Fonseca",
-      "title": "Hulk Hogan’s former manager Jimmy Hart opens up about his last moments with wrestling icon - New York Post",
-      "description": "Jimmy Hart’s still in shock at the death of his friend, Hulk Hogan.",
-      "url": "https://nypost.com/2025/07/25/sports/hulk-hogans-former-manager-opens-up-about-wrestling-icons-shock-death/",
-      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/07/GettyImages-476584860-e1753485572264.jpg?quality=75&strip=all&w=1024",
-      "publishedAt": "2025-07-26T00:14:00Z",
-      "content": "Jimmy Hart’s still in shock at the death of his friend, Hulk Hogan. \r\nThe transformative and controversial WWE legend Hogan died Thursday at the age of 71 at his home in Clearwater, Florida.\r\nHulk Ho… [+2206 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
+      {
+        "source": {
+          "id": null,
+          "name": "Just Jared"
+        },
+        "author": null,
+        "title": "Julie Bowen Reacts to ‘Happy Gilmore 2′ Plot Twist - Just Jared",
+        "description": "See what she said!",
+        "url": "https://www.justjared.com/2025/07/26/julie-bowen-reacts-to-happy-gilmore-2-plot-twist/",
+        "urlToImage": "https://cdn01.justjared.com/wp-content/uploads/headlines/2025/07/julie-bowen-happy-gilmore-2-plot-twist-social.jpg",
+        "publishedAt": "2025-07-26T18:06:23Z",
+        "content": "WARNING: SPOILERS AHEAD!\r\nJulie Bowen is reacting to the shocking plot twist in Happy Gilmore 2!\r\nThe 55-year-old actress reprised the role of Virginia Venit in this 2025 sequel. Now, the actress is … [+1281 chars]"
       },
-      "author": "Andrew Ackerman",
-      "title": "How a Fed tour sparked unexpected Trump praise for Powell - The Washington Post",
-      "description": "The president’s participation in a tour of the Fed had the makings of a public relations disaster for the central bank. But by Friday, the president was praising Powell.",
-      "url": "https://www.washingtonpost.com/business/2025/07/25/trump-powell-federal-reserve-interest-rates/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C4QKBA432QJSXZTYMMG5SASAYI.JPG&w=1440",
-      "publishedAt": "2025-07-25T23:47:13Z",
-      "content": "President Donald Trumps tour of the Federal Reserves expansive office renovations on Thursday had the makings of a public relations disaster for the central bank.\r\nInstead, the meeting appeared to si… [+4354 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
+      {
+        "source": {
+          "id": "associated-press",
+          "name": "Associated Press"
+        },
+        "author": null,
+        "title": "Company involved in Coldplay KissCam drama hires Gwyneth Paltrow as spokesperson - AP News",
+        "description": "A tech company whose CEO resigned after being caught on video at a Coldplay concert embracing another employee has hired Gwyneth Paltrow as a temporary spokesperson. The “Shakespeare in Love” and “Ironman,\" star, who was previously married to the band's front…",
+        "url": "https://apnews.com/article/astronmer-cold-play-chris-martin-gwyneth-patrow-4e7d4af7e3531a6e729b30b1c5514889",
+        "urlToImage": "https://dims.apnews.com/dims4/default/8dcd228/2147483647/strip/true/crop/3495x1966+0+141/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2Fd0%2Fbde7dcf32acbdbbc4b456d21a51d%2F2de940703883402fadd9eb871a509c59",
+        "publishedAt": "2025-07-26T17:57:00Z",
+        "content": "BOSTON (AP) Astronomer the company whose CEO resigned after being caught on a KissCam at a Coldplay rock concert embracing a woman who was not his wife is trying to move on from the drama with someon… [+1754 chars]"
       },
-      "author": null,
-      "title": "​​What is inside the GHF aid box being distributed in Gaza - BBC",
-      "description": "BBC Verify examines the meals handed out to Gazans - and why their nutritional value is questioned by some experts.",
-      "url": "https://www.bbc.com/news/articles/cd787er1qz4o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7108/live/76572300-68a5-11f0-89ea-4d6f9851f623.jpg",
-      "publishedAt": "2025-07-25T23:41:52Z",
-      "content": "Kevin Nguyen and Alex Murray\r\nMore than two million Palestinians in Gaza are facing a starvation crisis, with deaths from malnutrition rising by the day, according to the United Nations.\r\nThe Gaza Hu… [+4122 chars]"
-    },
-    {
-      "source": {
-        "id": "al-jazeera-english",
-        "name": "Al Jazeera English"
+      {
+        "source": {
+          "id": "entertainment-weekly",
+          "name": "Entertainment Weekly"
+        },
+        "author": "https://www.facebook.com/entertainmentweekly",
+        "title": "David Letterman blasts CBS and Skydance 'goons' after cancellation of Stephen Colbert's Late Show : 'Bottom feeders' - ew.com",
+        "description": "David Letterman blasted his former network home CBS and the 'goons' at Skydance as he speculated that Stephen Colbert's 'Late Show' was canceled for political reasons: 'Bottom feeders.'",
+        "url": "https://ew.com/david-letterman-blasts-cbs-skydance-over-stephen-colbert-late-show-cancellation-11779694",
+        "urlToImage": "https://ew.com/thmb/43F0vvanNskn6YqlcLI_xH9sebI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/stephen-colbert-david-letterman-late-show-072625-d656ace7949241e38625bb7b9915252b.jpg",
+        "publishedAt": "2025-07-26T17:03:45Z",
+        "content": "David Letterman, a former titan of late-night television, has come to the defense of his successor amid controversy surrounding the cancellation of Stephen Colbert's Late Show at CBS.\r\nDuring a recen… [+3826 chars]"
       },
-      "author": "Al Jazeera Staff",
-      "title": "With Trump go-ahead, Skydance and Paramount to complete merger in August - Al Jazeera",
-      "description": "The merger has faced scrutiny for what critics view as capitulations to Donald Trump, including a $16m settlement.",
-      "url": "https://www.aljazeera.com/news/2025/7/25/with-trump-go-ahead-skydance-and-paramount-to-complete-merger-in-august",
-      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/07/2025-07-24T225550Z_724683082_RC27RBACZYM8_RTRMADP_3_PARAMOUNT-GLOBAL-SKYDANCE-FCC-1753477479.jpg?resize=1920%2C1440",
-      "publishedAt": "2025-07-25T22:55:00Z",
-      "content": "The entertainment company Paramount Global is expected to close its $8bn merger agreement with Skydance Media on August 7, a date that marks two weeks after the administration of President Donald Tru… [+6273 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "NBCSports.com"
+      {
+        "source": {
+          "id": null,
+          "name": "Gizmodo.com"
+        },
+        "author": "Sabina Graves",
+        "title": "The Most Amazing Cosplay of San Diego Comic-Con 2025, Day 2 - Gizmodo",
+        "description": "We herald Galactus—and a whole host of even more geeky cosplay from the show floor at SDCC.",
+        "url": "https://gizmodo.com/sdcc-2025-cosplay-gallery-day-2-fantastic-four-2000634903",
+        "urlToImage": "https://gizmodo.com/app/uploads/2025/07/SDCC-2025-cosplay-day-2--1200x675.jpg",
+        "publishedAt": "2025-07-26T16:45:23Z",
+        "content": null
       },
-      "author": "Michael David Smith",
-      "title": "Shemar Stewart and Bengals reach agreement on rookie contract - NBC Sports",
-      "description": "Stewart accepted contract language the Bengals had been demanding in exchange for the Bengals paying him $500,000 more of his signing bonus now.",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shemar-stewart-and-bengals-reach-agreement-on-rookie-contract",
-      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/c5ea86d/2147483647/strip/true/crop/6000x3375+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fad%2F30%2F38cd3d274af7b58c0b42e71100ef%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2213106260",
-      "publishedAt": "2025-07-25T22:32:47Z",
-      "content": "The NFLs only unsigned first-round draft pick has agreed to a deal.\r\nThe Bengals and 17th overall pick Shemar Stewart have agreed to his rookie contract.\r\nStewart had been refusing to sign because th… [+817 chars]"
-    },
-    {
-      "source": {
-        "id": "axios",
-        "name": "Axios"
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Pamela McClintock",
+        "title": "‘Fantastic Four’ Box Office: ‘First Steps’ Pacing for $120M-$125M Launch in Notable Win for Marvel - The Hollywood Reporter",
+        "description": "Outside of 'Deadpool & Wolverine,' the reboot looks to score the best domestic opening for Kevin Feige's superhero studio since 2022's 'Black Panther: Wakanda Forever.'",
+        "url": "http://www.hollywoodreporter.com/movies/movie-news/fantastic-four-box-office-rockets-to-promising-first-steps-1236329192/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/07/BMN-15627_R-H-2025.jpg?w=1296&h=730&crop=1",
+        "publishedAt": "2025-07-26T15:46:02Z",
+        "content": "Mister Fantastic and his family have cleared the launch pad in high style.\r\nDirector Matt Shakman‘sFantastic Four: First Steps topped Friday’s box office chart in North America with a huge $57 millio… [+4028 chars]"
       },
-      "author": "Sareen Habeshian",
-      "title": "Trump administration to release billions in frozen education funds - Axios",
-      "description": "The administration has been facing bipartisan pressure to release the funds.",
-      "url": "https://www.axios.com/2025/07/25/education-funds-released-trump-admin",
-      "urlToImage": "https://images.axios.com/_1t8-Be_OXeVbzSWE9NnYpLd4dc=/0x0:3000x1688/1366x768/2025/07/25/1753473148235.jpeg",
-      "publishedAt": "2025-07-25T21:27:27Z",
-      "content": "Driving the news: TheWhite House Office of Management and Budget completed a review of Title I-C, Title II-A, Title III-A, and Title IV-A ESEA funds and Title II WIOA funds and directed the Education… [+2141 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
+      {
+        "source": {
+          "id": null,
+          "name": "MovieWeb"
+        },
+        "author": "Anthony Lund",
+        "title": "'South Park' Absolutely Dominates Paramount+ in Wake of Season 27's Controversial Debut - MovieWeb",
+        "description": "&#039;South Park&#039; returned to Paramount+ with a vengeance and no one believes it is &quot;irrelevant.&quot;",
+        "url": "https://movieweb.com/south-park-streaming-success-paramount-season-27-trump/",
+        "urlToImage": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2025/07/south-park-trump-jpg.jpg",
+        "publishedAt": "2025-07-26T12:15:00Z",
+        "content": "If there is one thing that can really bring out a crowd, then it is a big chunk of controversy. And right now, there is nothing in the world more controversial than President Donald Trump andSouth Pa… [+2699 chars]"
       },
-      "author": "Beth Mole",
-      "title": "Widely panned arsenic life paper gets retracted—15 years after brouhaha - Ars Technica",
-      "description": "Opinions are mixed on the retraction, and the authors continue to defend their work.",
-      "url": "https://arstechnica.com/science/2025/07/widely-panned-arsenic-life-paper-gets-retracted-15-years-after-brouhaha/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1140452796-1152x648.jpg",
-      "publishedAt": "2025-07-25T20:26:44Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
+      {
+        "source": {
+          "id": null,
+          "name": "nj.com"
+        },
+        "author": "Murjani Rawls | NJ Advance Media for NJ.com",
+        "title": "Two-time Grammy winner with huge ‘70s hit dead at 84 - NJ.com",
+        "description": "According to a statement, he died peacefully in his home on Tuesday.",
+        "url": "https://www.nj.com/entertainment/2025/07/two-time-grammy-winner-with-huge-70s-hit-dead-at-84.html",
+        "urlToImage": "https://www.nj.com/resizer/v2/LYALZPL5TBG4JFTKCCRXAIK23I.jpg?auth=19db6724286987ba2e4228565206b037fa6fd68a1a5e45d9d9be2b028fe198c4&width=1280&quality=90",
+        "publishedAt": "2025-07-26T09:00:00Z",
+        "content": "Chuck Mangione, a two-time Grammy award-winning jazz musician who scored a top five hit with his instrumental, Feels So Good (1977), has died. He was 84.\r\nMangione died peacefully in his sleep at his… [+2084 chars]"
       },
-      "author": "Sydney Bradley",
-      "title": "Tea app that lets women post anonymous dating reviews was hit by a data breach that exposed 72K images - Business Insider",
-      "description": "Viral dating advice app Tea experienced a data breach on Friday. It's been at the top of the US Apple App Store this week.",
-      "url": "https://www.businessinsider.com/tea-app-user-selfies-women-data-exposed-breach-2025-7",
-      "urlToImage": "https://i.insider.com/6883e11385e81483682eb985?width=1200&format=jpeg",
-      "publishedAt": "2025-07-25T20:21:00Z",
-      "content": "Tea, the anonymous dating advice app for women that has the internet buzzing, is in hot water after a data breach.\r\nThousands of images of women, including selfies and photos of IDs that were used to… [+1922 chars]"
-    }
-  ]
+      {
+        "source": {
+          "id": null,
+          "name": "Deadline"
+        },
+        "author": "Glenn Garner",
+        "title": "Anthony Anderson Regrets “Poor Taste” Of Resurfaced Interview With Teen Lindsay Lohan - Deadline",
+        "description": "More than 20 years later, Anthony Anderson is answering for a 2003 interview with a then underaged Lindsay Lohan that has not aged well.",
+        "url": "http://deadline.com/2025/07/anthony-anderson-apologizes-teen-lindsay-lohan-interview-1236469367/",
+        "urlToImage": "https://deadline.com/wp-content/uploads/2025/07/Anthony-Anderson-Lindsay-Lohan-2-shot.jpg?w=1024",
+        "publishedAt": "2025-07-26T01:23:00Z",
+        "content": "More than 20 years later, Anthony Anderson is answering for a 2003 interview with a then underaged Lindsay Lohan that has not aged well.\r\nAfter a clip of the 2x Golden Globe nominee guest hosting an … [+1206 chars]"
+      }
+    ]
+  }
 }

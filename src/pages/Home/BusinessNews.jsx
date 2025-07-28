@@ -7,7 +7,9 @@ const BusinessNews = () => {
 
   useEffect(() => {
     async function fetchNews() {
-      const { data } = await getCategoricalNews("entertainment");
+      const returnedData = await getCategoricalNews("business");
+      const data = returnedData.data.articles;
+
       if (data) {
         const shuffled = [...data].sort(() => Math.random() - 0.5);
         setNews(shuffled.slice(0, 6));

@@ -1,214 +1,253 @@
 {
-  "status": "ok",
-  "totalResults": 16,
-  "articles": [
-    {
-      "source": {
-        "id": null,
-        "name": "Hollywood Reporter"
+  "data": {
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Suntimes.com"
+        },
+        "author": "Georgia Nicols",
+        "title": "Horoscope for Sunday, July 27, 2025 - Chicago Sun-Times",
+        "description": null,
+        "url": "https://chicago.suntimes.com/horoscopes/2025/07/27/horoscopes-today-sunday-july-27-2025",
+        "urlToImage": "https://cst.brightspotcdn.com/dims4/default/2145dbd/2147483647/strip/true/crop/870x497+0+67/resize/1461x834!/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fac%2Ffd%2F790f04b15195427014757adc0272%2Fgeorgia-nicols.jpg",
+        "publishedAt": "2025-07-27T05:01:00Z",
+        "content": "Moon Alert\r\nThere are no restrictions to shopping or important decisions today. The moon is in Virgo.\r\nAries (March 21-April 19)\r\n This is an excellent day to work with others because you will accomp… [+3967 chars]"
       },
-      "author": "McKinley Franklin",
-      "title": "Gwyneth Paltrow Becomes “Temporary Spokesperson” for Astronomer Amid Coldplay Kiss-Cam Scandal - The Hollywood Reporter",
-      "description": "The controversy stemmed from a Boston concert held by none other than Paltrow’s ex-husband's band.",
-      "url": "http://www.hollywoodreporter.com/news/music-news/gwyneth-paltrow-coldplay-kiss-cam-scandal-astronomer-1236330136/",
-      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/07/GettyImages-1780960863-e1753505154353.jpg?w=1440&h=810&crop=1",
-      "publishedAt": "2025-07-26T04:51:32Z",
-      "content": "In a surprising turn of events, Gwyneth Paltrow has become a “temporary spokesperson” for Astronomer in the wake of the viral Coldplay kiss-cam moment involving the company’s former CEO and chief peo… [+1916 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Deadline"
+      {
+        "source": {
+          "id": null,
+          "name": "Deadline"
+        },
+        "author": "Natalie Oganesyan",
+        "title": "‘Swamp People’ Star Junior Edwards Dies - Deadline",
+        "description": "Junior Edwards, one of the original cast members of the History Channel's 'Swamp People', has died. No cause of death or further details were shared.",
+        "url": "http://deadline.com/2025/07/swamp-people-star-junior-edwards-dead-1236469864/",
+        "urlToImage": "https://deadline.com/wp-content/uploads/2025/07/Screenshot-2025-07-26-at-6.10.12 PM.png?w=1024",
+        "publishedAt": "2025-07-27T01:38:00Z",
+        "content": "Junior Edwards, one of the original cast members of the History Channel‘s Swamp People, has died, per a Facebook announcement posted by his grandson and co-star “Little” Willie Edwards.\r\n“Rest easy p… [+1761 chars]"
       },
-      "author": "Glenn Garner",
-      "title": "Stephen Colbert Praises ‘South Park’s Naked AI Trump PSA: “An Important Message Of Hope” - Deadline",
-      "description": "After the explosive 'South Park' Season 27 premiere, Stephen Colbert reveled in the show's insults at Trump and fellow parent company Paramount.",
-      "url": "http://deadline.com/2025/07/stephen-colbert-praises-south-park-naked-ai-trump-1236467956/",
-      "urlToImage": "https://deadline.com/wp-content/uploads/2025/07/Stephen-Colbert-South-Park-AI-Donald-Trump-2-shot.jpg?w=1024",
-      "publishedAt": "2025-07-26T03:28:00Z",
-      "content": "After South Park made waves against Donald Trump and parent company Paramount in the Season 27 premiere, Stephen Colbert has regained a sense of optimism.\r\nOn Thursday’s episode of The Late Show with… [+2255 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Variety"
+      {
+        "source": {
+          "id": "entertainment-weekly",
+          "name": "Entertainment Weekly"
+        },
+        "author": "https://www.facebook.com/entertainmentweekly",
+        "title": "Rebecca Romijn on filming Avengers and Star Trek simultaneously: 'It's surreal and overwhelming' - ew.com",
+        "description": "'Avengers: Doomsday' and 'Star Trek: Strange New Worlds' star Rebecca Romijn commented on filming both projects simultaneously at Comic-Con.",
+        "url": "https://ew.com/rebecca-romijn-filming-avengers-star-trek-simultaneously-11779778",
+        "urlToImage": "https://ew.com/thmb/c_QJZ1Smb_yhebluQ7WVlK4UFDc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Rebecca-Romijn-072625-c554ba5f343845b990bb83b9def22af1.jpg",
+        "publishedAt": "2025-07-26T23:24:36Z",
+        "content": "Rebecca Romijn received a lot of love from the geek community gathered at Comic-Con on Saturday, not just for her role on Star Trek: Strange New Worlds, but also Avengers: Doomsday.\r\nThe actress repr… [+2145 chars]"
       },
-      "author": "Adam B. Vary",
-      "title": "‘Tron: Ares’ Blasts Comic-Con With Lightcycle and Lightboat Chases, Nine Inch Nails Music Video - Variety",
-      "description": "Tron: Ares blew the roof off of Comic-Con with two clips from the film featuring lightcycles and lightboats, and a Nine Inch Nails music video.",
-      "url": "https://variety.com/2025/film/news/tron-ares-footage-lightcycle-nine-inch-nails-1236470997/",
-      "urlToImage": "https://variety.com/wp-content/uploads/2025/07/tron_ares_dtrl1_4k_r709f_stills_250403.087086.jpg?w=1000&h=563&crop=1",
-      "publishedAt": "2025-07-26T02:21:00Z",
-      "content": "“Tron: Ares” blew the roof off of San Diego Comic-Con at its panel on Friday evening, with an eye-popping, ear-blasting laser-light show set to the pulsing original score by Nine Inch Nails. The pane… [+4393 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Variety"
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Borys Kit",
+        "title": "‘Star Trek: Strange New Worlds’ Delights Comic-Con With Upcoming Episode, Teases All-Puppet Installment - The Hollywood Reporter",
+        "description": "“We think of you all the time when we are in the writers room and we always talk about what would the fans want and love,” exec producer Akiva Goldsman told supporters in Hall H.",
+        "url": "http://www.hollywoodreporter.com/tv/tv-news/star-trek-strange-new-worlds-comic-con-puppet-episode-1236330327/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/07/Pike-Puppet.jpg?w=1440&h=810&crop=1",
+        "publishedAt": "2025-07-26T22:30:31Z",
+        "content": "Star Trek: Strange New Worlds boldly went exactly where fans wanted them to go with its San Diego Comic-Con panel, delivering a fun presentation that also gave the 6,500-strong crowd in the cavernous… [+2872 chars]"
       },
-      "author": "William Earl",
-      "title": "David Letterman Blasts CBS for Stephen Colbert 'Late Show' Cancellation - Variety",
-      "description": "David Letterman took aim at his former employer, CBS, over the cancellation of 'The Late Show With Stephen Colbert.",
-      "url": "https://variety.com/2025/tv/news/david-letterman-stephen-colbert-the-late-show-1236471020/",
-      "urlToImage": "https://variety.com/wp-content/uploads/2015/04/the-late-show-with-david-letterman.jpg?w=1000&h=563&crop=1",
-      "publishedAt": "2025-07-26T01:26:00Z",
-      "content": "David Letterman unloaded on CBS and Skydance on Friday for cancelling “The Late Show,” which he launched 32 years ago, saying the network had mistreated his successor, Stephen Colbert.\r\nIn an intervi… [+2623 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Deadline"
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Ryan Gajewski",
+        "title": "'Project Hail Mary': Ryan Gosling Debuts Footage at Comic-Con - The Hollywood Reporter",
+        "description": "Phil Lord and Christopher Miller helmed the Amazon MGM Studios sci-fi feature that hits theaters next year.",
+        "url": "http://www.hollywoodreporter.com/movies/movie-news/project-hail-mary-ryan-gosling-footage-comic-con-1236330320/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/06/Project-Hail-Mary-trailer.jpg?w=1296&h=730&crop=1",
+        "publishedAt": "2025-07-26T22:27:33Z",
+        "content": "Project Hail Mary’s newly revealed footage was greeted with huge laughter during the Amazon MGM Studios feature’s San Diego Comic-Con panel.\r\nRyan Gosling, directors Phil Lord and Christopher Miller,… [+3002 chars]"
       },
-      "author": "Glenn Garner",
-      "title": "Anthony Anderson Apologizes For “Poor Taste” Of Resurfaced Interview With Teen Lindsay Lohan - Deadline",
-      "description": "More than 20 years later, Anthony Anderson is answering for a 2003 interview with a then underaged Lindsay Lohan that has not aged well.",
-      "url": "http://deadline.com/2025/07/anthony-anderson-apologizes-teen-lindsay-lohan-interview-1236469367/",
-      "urlToImage": "https://deadline.com/wp-content/uploads/2025/07/Anthony-Anderson-Lindsay-Lohan-2-shot.jpg?w=1024",
-      "publishedAt": "2025-07-26T01:23:00Z",
-      "content": "More than 20 years later, Anthony Anderson is answering for a 2003 interview with a then underaged Lindsay Lohan that has not aged well.\r\nAfter a clip of the 2x Golden Globe nominee guest hosting an … [+1206 chars]"
-    },
-    {
-      "source": {
-        "id": "entertainment-weekly",
-        "name": "Entertainment Weekly"
+      {
+        "source": {
+          "id": null,
+          "name": "Marvel Entertainment"
+        },
+        "author": "Marvel",
+        "title": "SDCC 2025: 'Ultimate Endgame' and the Final Issue of 'Ultimate Spider-Man' Revealed - Marvel",
+        "description": "'Ultimate Spider-Man' #24, the final issue of Jonathan Hickman and Marco Checchetto's hit run, and 'Ultimate Endgame' #1, the start of a five-issue event series by Deniz Camp, Jonas Scharf and more, hit stands in December.",
+        "url": "https://www.marvel.com/articles/comics/ultimate-endgame-final-issue-of-ultimate-spider-man-revealed-san-diego-comic-con",
+        "urlToImage": "https://cdn.marvel.com/content/1x/ultendgame2025001_chew_foil.jpg",
+        "publishedAt": "2025-07-26T21:32:09Z",
+        "content": "ULTIMATE ENDGAME #1 (OF 5)Written by DENIZ CAMPArt by JONAS SCHARF &amp; MORECover by MARK BROOKSFoil Variant Cover by DERRICK CHEWOn Sale 12/31\r\nTeased last week, ULTIMATE ENDGAME delivers the momen… [+1904 chars]"
       },
-      "author": "https://www.facebook.com/entertainmentweekly",
-      "title": "'The Boys' season 5 Comic-Con trailer shows Jared Padalecki, 'Gen V' crossovers - Entertainment Weekly",
-      "description": "'The Boys' season 5 dropped a Comic-Con trailer (in room only) featuring Jared Padalecki and some 'Gen V' stars crossing over.",
-      "url": "https://ew.com/the-boys-season-5-comic-con-trailer-jared-padalecki-gen-v-crossovers-11779627",
-      "urlToImage": "https://ew.com/thmb/EeI7wsp_fUM5__lmOh7rN25ID7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Jensen-Ackles-the-boys-Jared-Padalecki-25th-Annual-Texas-Film-Awards-2025-072525-ed1356bae3924ff7a2a57dbfa79b397f.jpg",
-      "publishedAt": "2025-07-26T00:46:59Z",
-      "content": "After screening a new Gen V season 2 trailer packed with The Boys crossovers and some new casting, Amazon's Comic-Con panel in Ballroom 20 on Friday afternoon left one major reveal for the very end: … [+3923 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Variety"
+      {
+        "source": {
+          "id": null,
+          "name": "Variety"
+        },
+        "author": "Adam B. Vary",
+        "title": "‘Star Trek: Starfleet Academy’ Debuts Hopeful First Trailer With Holly Hunter and Paul Giamatti - Variety",
+        "description": "“Star Trek: Starfleet Academy\" debuted its first trailer at San Diego Comic-Con.",
+        "url": "https://variety.com/2025/tv/news/star-trek-starfleet-academy-trailer-1236471287/",
+        "urlToImage": "https://variety.com/wp-content/uploads/2025/07/SFA_101_BP_0913_0383_RT.jpg?crop=0px%2C35px%2C1800px%2C1013px&resize=1000%2C563",
+        "publishedAt": "2025-07-26T21:00:00Z",
+        "content": "“Star Trek: Starfleet Academy,” the newest series in the nearly 60-year-old franchise, warped into San Diego Comic-Con on Saturday with an introduction of its full cast and the first trailer for the … [+3769 chars]"
       },
-      "author": "Adam B. Vary",
-      "title": "‘Fantastic Four’ Credits Scene Confirms Franklin Richards’ Role in ‘Avengers: Doomsday,’ but It’s a Big Risk - Variety",
-      "description": "How Franklin Richards, the power cosmic and Doctor Doom's appearance in \"The Fantastic Four: First Steps\" credit scene affects \"Avengers: Doomsday.\"",
-      "url": "https://variety.com/2025/film/news/fantastic-four-credits-scene-doctor-doom-franklin-richards-1236470742/",
-      "urlToImage": "https://variety.com/wp-content/uploads/2025/07/RES2250_comp_CPT_v0001.1058_R.jpg?crop=0px%2C134px%2C1800px%2C1012px&resize=1000%2C563",
-      "publishedAt": "2025-07-26T00:30:00Z",
-      "content": "SPOILER ALERT: This story discusses major plot developments, including the ending and post-credits scenes, in “The Fantastic Four: First Steps,” currently playing in theaters.\r\nFrom the very first sc… [+5728 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hindustan Times"
+      {
+        "source": {
+          "id": null,
+          "name": "Superdeluxeedition.com"
+        },
+        "author": null,
+        "title": "Madonna’s Veronica Electronica coming to CD - SuperDeluxeEdition",
+        "description": null,
+        "url": "https://superdeluxeedition.com/news/madonnas-veronica-electronica-coming-to-cd/",
+        "urlToImage": null,
+        "publishedAt": "2025-07-26T20:31:46Z",
+        "content": "Madonna’sVeronica Electronica EP, or mini-album, or whatever you want to call it, was released yesterday on ‘silver’ coloured vinyl and Warners have just announced a CD version for later this year.\r\n… [+1093 chars]"
       },
-      "author": "Shuvrajit Das Biswas",
-      "title": "Where was ‘Happy Gilmore 2’ filmed? All locations from Netflix's Adam Sandler sequel | Hollywood - Hindustan Times - Hindustan Times",
-      "description": "‘Happy Gilmore 2’ sees Gilmore return to golf after his retirement following the Tour Championship win, to finance his daughter's ballet classes.&nbsp; | Hollywood",
-      "url": "https://www.hindustantimes.com/entertainment/hollywood/where-was-happy-gilmore-2-filmed-all-locations-from-netflixs-adam-sandler-sequel-101753487389069.html",
-      "urlToImage": "https://www.hindustantimes.com/ht-img/img/2025/07/26/1600x900/haoppygilmore_1753489372917_1753489381815.jpg",
-      "publishedAt": "2025-07-26T00:26:24Z",
-      "content": "'Happy Gilmore 2' stars Adam Sandler as the eponymous character in the Netflix sequel to the 1996 hit. Sandler is back as golfer Happy Gilmore, who returns to the game after his retirement following … [+3168 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "New York Post"
+      {
+        "source": {
+          "id": null,
+          "name": "Louder"
+        },
+        "author": "Stef Lach",
+        "title": "\"Ozzy would always tell me how he loved Ronnie.\" Vinny Appice says rumours of beef between Ozzy and Dio were untrue - Louder",
+        "description": "Ozzy surely hated the man who replaced him in Black Sabbath, right? Nope",
+        "url": "https://www.loudersound.com/bands-artists/ozzy-would-always-tell-me-how-he-loved-ronnie-vinny-appice-says-rumours-of-beef-between-ozzy-and-dio-were-untrue",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/dphtifaeJy4uJmyVUhUzkj.png",
+        "publishedAt": "2025-07-26T20:27:59Z",
+        "content": "Longstanding rumours of a beef between Ozzy Osbourne and Ronnie James Dio – the man who replaced him in Black Sabbath – have been shot down by former Sabbath drummer Vinny Appice.\r\nWhen Sabbath fired… [+1855 chars]"
       },
-      "author": "Bryan Fonseca",
-      "title": "Hulk Hogan’s former manager Jimmy Hart opens up about his last moments with wrestling icon - New York Post",
-      "description": "Jimmy Hart’s still in shock at the death of his friend, Hulk Hogan.",
-      "url": "https://nypost.com/2025/07/25/sports/hulk-hogans-former-manager-opens-up-about-wrestling-icons-shock-death/",
-      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/07/GettyImages-476584860-e1753485572264.jpg?quality=75&strip=all&w=1024",
-      "publishedAt": "2025-07-26T00:14:00Z",
-      "content": "Jimmy Hart’s still in shock at the death of his friend, Hulk Hogan. \r\nThe transformative and controversial WWE legend Hogan died Thursday at the age of 71 at his home in Clearwater, Florida.\r\nHulk Ho… [+2206 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Marvel Entertainment"
+      {
+        "source": {
+          "id": null,
+          "name": "Rolling Stone"
+        },
+        "author": "Daniel Kreps",
+        "title": "Billy Joel Drops Massive 115-Song ‘And So It Goes’ Companion Playlist - Rolling Stone",
+        "description": "Billy Joel has dropped a massive 155-song 'And So It Goes' companion album on digital services featuring unreleased recordings and more.",
+        "url": "http://www.rollingstone.com/music/music-news/billy-joel-and-so-it-goes-companion-playlist-1235394673/",
+        "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/07/GettyImages-2183952442.jpg?w=1600&h=900&crop=1",
+        "publishedAt": "2025-07-26T20:12:08Z",
+        "content": "Following the premiere of the second part of Billy Joel’s And So It Goes documentary, the Piano Man dropped a massive 155-song companion album on digital services featuring unreleased recordings and … [+1581 chars]"
       },
-      "author": "Marvel",
-      "title": "SDCC 2025: Marvel's New Cosmic Order Unveiled - Marvel",
-      "description": "New ongoing series spinning out Jonathan Hickman's 'Imperial' announced at San Diego Comic-Con, including 'Planet She-Hulk' by Stephanie Phillips and Aaron Kuder and 'Nova: Centurion' by Jed MacKay and Álvaro López, both launching in November.",
-      "url": "https://www.marvel.com/articles/comics/marvel-new-cosmic-order-unveiled-nova-she-hulk-san-deigo-comic-con",
-      "urlToImage": "https://cdn.marvel.com/content/1x/novacent2025001_cover4x5.jpg",
-      "publishedAt": "2025-07-25T23:35:38Z",
-      "content": "For months, Marvel Comics has teased that IMPERIAL, the four-part epic by visionary writer Jonathan Hickman and superstar artists Iban Coello and Federico Vicentini, would usher in a new era of cosmi… [+1383 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Rolling Stone"
+      {
+        "source": {
+          "id": null,
+          "name": "Variety"
+        },
+        "author": "Michael Schneider",
+        "title": "‘The Simpsons’ Upcoming Guests Include Kieran Culkin, Viola Davis, Idris Elba; Matt Groening on How to Liberate Parents from MAGA: ‘Delete Fox News’ - Variety",
+        "description": "'The Simpsons' Season 37 guests include Kieran Culkin, Glenn Howerton, Albert Brooks, Cole Escola, Idris Elba, Michael Keaton and Viola Davis.",
+        "url": "https://variety.com/2025/tv/news/the-simpsons-guest-stars-matt-groening-maga-delete-fox-news-1236471164/",
+        "urlToImage": "https://variety.com/wp-content/uploads/2023/12/TheSimpsons.jpg?w=1000&h=563&crop=1",
+        "publishedAt": "2025-07-26T19:39:00Z",
+        "content": "Kieran Culkin (“Succession”), Glenn Howerton (“It’s Always Sunny in Philadelphia”), Albert Brooks and Cole Escola (“Oh Mary”) are among the guest stars stopping by Springfield during the upcoming Sea… [+3962 chars]"
       },
-      "author": "Cheyenne Roundtree",
-      "title": "Anti-Flag’s Justin Sane Ordered to Pay Rape Accuser $1.9 Million - Rolling Stone",
-      "description": "Anti-Flag's Justin Sane is ordered to pay Kristina Sarhadi $1.9 million after she sued him in November 2023 for sexual assault.",
-      "url": "http://www.rollingstone.com/music/music-news/anti-flag-justin-sane-accuser-lawsuit-1235392658/",
-      "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/07/Justin-Sane-2-million.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900",
-      "publishedAt": "2025-07-25T20:04:32Z",
-      "content": "Anti-Flag‘s former frontman Justin Sane has been ordered to pay accuser Kristina Sarhadi nearly $2 million in her sexual assault lawsuit against the punk-rock singer. \r\nChief U.S. District Judge Bren… [+4894 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Variety"
+      {
+        "source": {
+          "id": null,
+          "name": "Just Jared"
+        },
+        "author": null,
+        "title": "Julie Bowen Reacts to ‘Happy Gilmore 2′ Plot Twist - Just Jared",
+        "description": "See what she said!",
+        "url": "https://www.justjared.com/2025/07/26/julie-bowen-reacts-to-happy-gilmore-2-plot-twist/",
+        "urlToImage": "https://cdn01.justjared.com/wp-content/uploads/headlines/2025/07/julie-bowen-happy-gilmore-2-plot-twist-social.jpg",
+        "publishedAt": "2025-07-26T18:06:23Z",
+        "content": "WARNING: SPOILERS AHEAD!\r\nJulie Bowen is reacting to the shocking plot twist in Happy Gilmore 2!\r\nThe 55-year-old actress reprised the role of Virginia Venit in this 2025 sequel. Now, the actress is … [+1281 chars]"
       },
-      "author": "Giana Levy",
-      "title": "Marc Maron on ‘The Bad Guys 2,’ His Reaction to Colbert’s ‘Late Show’ Being Canceled and Why Barack Obama Is His Dream Pick for Final ‘WTF’ Guest - Variety",
-      "description": "Marc Maron says his dream guest for his final episode of “WTF With Marc Maron” is Pres. Barack Obama.",
-      "url": "https://variety.com/2025/scene/news/marc-maron-the-bad-guys-2-wtf-podcast-stephen-colbert-1236469437/",
-      "urlToImage": "https://variety.com/wp-content/uploads/2023/04/MarcMaron7028.jpg?w=1000&h=562&crop=1",
-      "publishedAt": "2025-07-25T18:28:00Z",
-      "content": "Marc Maron says his dream guest for his final episode of “WTF With Marc Maron” would be Barack Obama.\r\nThe former president appeared on a previous episode of Maron’s show back in June 2015.\r\n“If we c… [+3460 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
+      {
+        "source": {
+          "id": "associated-press",
+          "name": "Associated Press"
+        },
+        "author": null,
+        "title": "Company involved in Coldplay KissCam drama hires Gwyneth Paltrow as spokesperson - AP News",
+        "description": "A tech company whose CEO resigned after being caught on video at a Coldplay concert embracing another employee has hired Gwyneth Paltrow as a temporary spokesperson. The “Shakespeare in Love” and “Ironman,\" star, who was previously married to the band's front…",
+        "url": "https://apnews.com/article/astronmer-cold-play-chris-martin-gwyneth-patrow-4e7d4af7e3531a6e729b30b1c5514889",
+        "urlToImage": "https://dims.apnews.com/dims4/default/8dcd228/2147483647/strip/true/crop/3495x1966+0+141/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc3%2Fd0%2Fbde7dcf32acbdbbc4b456d21a51d%2F2de940703883402fadd9eb871a509c59",
+        "publishedAt": "2025-07-26T17:57:00Z",
+        "content": "BOSTON (AP) Astronomer the company whose CEO resigned after being caught on a KissCam at a Coldplay rock concert embracing a woman who was not his wife is trying to move on from the drama with someon… [+1754 chars]"
       },
-      "author": "Sabina Graves",
-      "title": "The Most Amazing Cosplay of San Diego Comic-Con 2025, Day 1 - Gizmodo",
-      "description": "Take a look at some of our favorite fandom costuming from day one of SDCC 2025.",
-      "url": "https://gizmodo.com/sdcc-2025-cosplay-gallery-day-1-2000632373",
-      "urlToImage": "https://gizmodo.com/app/uploads/2025/07/Team-Rocket-SDCC-Cosplay-Day-One-1200x675.jpg",
-      "publishedAt": "2025-07-25T16:45:15Z",
-      "content": "It’s that time of year again; San Diego Comic-Con is upon us and is off to a festive start for the biggest fan party of them all.\r\nBetween the convention floor bustle and the packed panels, all of ne… [+936 chars]"
-    },
-    {
-      "source": {
-        "id": "buzzfeed",
-        "name": "Buzzfeed"
+      {
+        "source": {
+          "id": "entertainment-weekly",
+          "name": "Entertainment Weekly"
+        },
+        "author": "https://www.facebook.com/entertainmentweekly",
+        "title": "David Letterman blasts CBS and Skydance 'goons' after cancellation of Stephen Colbert's Late Show : 'Bottom feeders' - ew.com",
+        "description": "David Letterman blasted his former network home CBS and the 'goons' at Skydance as he speculated that Stephen Colbert's 'Late Show' was canceled for political reasons: 'Bottom feeders.'",
+        "url": "https://ew.com/david-letterman-blasts-cbs-skydance-over-stephen-colbert-late-show-cancellation-11779694",
+        "urlToImage": "https://ew.com/thmb/43F0vvanNskn6YqlcLI_xH9sebI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/stephen-colbert-david-letterman-late-show-072625-d656ace7949241e38625bb7b9915252b.jpg",
+        "publishedAt": "2025-07-26T17:03:45Z",
+        "content": "David Letterman, a former titan of late-night television, has come to the defense of his successor amid controversy surrounding the cancellation of Stephen Colbert's Late Show at CBS.\r\nDuring a recen… [+3826 chars]"
       },
-      "author": "Nora Dominick",
-      "title": "Here's A First Look At Meryl Streep As Miranda Priestly In \"The Devil Wears Prada 2,\" Plus More News - BuzzFeed",
-      "description": "Vanessa Kirby, welcome to the club of Marvel women I would die for.",
-      "url": "https://www.buzzfeed.com/noradominick/fantastic-four-review-meryl-streep-in-devil-wears-prada-2",
-      "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2025-07/24/18/thumb/IO0ZqBB9w.jpg?crop=1250:655;0,17%26downsize=1250:*",
-      "publishedAt": "2025-07-25T16:31:01Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "NPR"
+      {
+        "source": {
+          "id": null,
+          "name": "Gizmodo.com"
+        },
+        "author": "Sabina Graves",
+        "title": "The Most Amazing Cosplay of San Diego Comic-Con 2025, Day 2 - Gizmodo",
+        "description": "We herald Galactus—and a whole host of even more geeky cosplay from the show floor at SDCC.",
+        "url": "https://gizmodo.com/sdcc-2025-cosplay-gallery-day-2-fantastic-four-2000634903",
+        "urlToImage": "https://gizmodo.com/app/uploads/2025/07/SDCC-2025-cosplay-day-2--1200x675.jpg",
+        "publishedAt": "2025-07-26T16:45:23Z",
+        "content": null
       },
-      "author": "",
-      "title": "Singer Cleo Laine, who boasted a four-octave range, has died at 97 - NPR",
-      "description": "London's Sunday Times once called Laine \"quite simply the best singer in the world.\"",
-      "url": "https://www.npr.org/2025/07/25/847555144/singer-cleo-laine-dead",
-      "urlToImage": "https://media.npr.org/assets/img/2020/04/28/gettyimages-1159379032_wide-35e7aedc8661859659cff716ed259912f9263eea.jpg?s=1400&c=100&f=jpeg",
-      "publishedAt": "2025-07-25T15:59:43Z",
-      "content": "Cleo Laine in concert in 1980.\r\nKeystone/Getty Images\r\nDame Cleo Laine has died at age 97. Her death was announced by The Stables, the music venue that she and her husband, Sir John Dankworth, founde… [+3037 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "NPR"
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Pamela McClintock",
+        "title": "‘Fantastic Four’ Box Office: ‘First Steps’ Pacing for $120M-$125M Launch in Notable Win for Marvel - The Hollywood Reporter",
+        "description": "Outside of 'Deadpool & Wolverine,' the reboot looks to score the best domestic opening for Kevin Feige's superhero studio since 2022's 'Black Panther: Wakanda Forever.'",
+        "url": "http://www.hollywoodreporter.com/movies/movie-news/fantastic-four-box-office-rockets-to-promising-first-steps-1236329192/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/07/BMN-15627_R-H-2025.jpg?w=1296&h=730&crop=1",
+        "publishedAt": "2025-07-26T15:46:02Z",
+        "content": "Mister Fantastic and his family have cleared the launch pad in high style.\r\nDirector Matt Shakman‘sFantastic Four: First Steps topped Friday’s box office chart in North America with a huge $57 millio… [+4028 chars]"
       },
-      "author": "Ayana Archie",
-      "title": "Ozzy Osbourne influenced many aspects of pop culture — especially fashion - NPR",
-      "description": "Osbourne has come to be known for his \"uniform\" of about three decades — a long black coat, round sunglasses, a crucifix around his neck. But his style had many iterations before then.",
-      "url": "https://www.npr.org/2025/07/25/g-s1-79330/ozzy-osbourne-fashion-style",
-      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3048x1715+0+1053/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faf%2F93%2Fc3eb55414d568a6c2645a3519029%2Fgettyimages-2179682960.jpg",
-      "publishedAt": "2025-07-25T09:00:00Z",
-      "content": "Rock 'n' roll legend and Black Sabbath frontman Ozzy Osbourne died earlier this week at age 76.\r\nHe was an enigmatic figure known for many things being a forefather of heavy metal,biting the head off… [+4532 chars]"
-    }
-  ]
+      {
+        "source": {
+          "id": null,
+          "name": "MovieWeb"
+        },
+        "author": "Anthony Lund",
+        "title": "'South Park' Absolutely Dominates Paramount+ in Wake of Season 27's Controversial Debut - MovieWeb",
+        "description": "&#039;South Park&#039; returned to Paramount+ with a vengeance and no one believes it is &quot;irrelevant.&quot;",
+        "url": "https://movieweb.com/south-park-streaming-success-paramount-season-27-trump/",
+        "urlToImage": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2025/07/south-park-trump-jpg.jpg",
+        "publishedAt": "2025-07-26T12:15:00Z",
+        "content": "If there is one thing that can really bring out a crowd, then it is a big chunk of controversy. And right now, there is nothing in the world more controversial than President Donald Trump andSouth Pa… [+2699 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "nj.com"
+        },
+        "author": "Murjani Rawls | NJ Advance Media for NJ.com",
+        "title": "Two-time Grammy winner with huge ‘70s hit dead at 84 - NJ.com",
+        "description": "According to a statement, he died peacefully in his home on Tuesday.",
+        "url": "https://www.nj.com/entertainment/2025/07/two-time-grammy-winner-with-huge-70s-hit-dead-at-84.html",
+        "urlToImage": "https://www.nj.com/resizer/v2/LYALZPL5TBG4JFTKCCRXAIK23I.jpg?auth=19db6724286987ba2e4228565206b037fa6fd68a1a5e45d9d9be2b028fe198c4&width=1280&quality=90",
+        "publishedAt": "2025-07-26T09:00:00Z",
+        "content": "Chuck Mangione, a two-time Grammy award-winning jazz musician who scored a top five hit with his instrumental, Feels So Good (1977), has died. He was 84.\r\nMangione died peacefully in his sleep at his… [+2084 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Deadline"
+        },
+        "author": "Glenn Garner",
+        "title": "Anthony Anderson Regrets “Poor Taste” Of Resurfaced Interview With Teen Lindsay Lohan - Deadline",
+        "description": "More than 20 years later, Anthony Anderson is answering for a 2003 interview with a then underaged Lindsay Lohan that has not aged well.",
+        "url": "http://deadline.com/2025/07/anthony-anderson-apologizes-teen-lindsay-lohan-interview-1236469367/",
+        "urlToImage": "https://deadline.com/wp-content/uploads/2025/07/Anthony-Anderson-Lindsay-Lohan-2-shot.jpg?w=1024",
+        "publishedAt": "2025-07-26T01:23:00Z",
+        "content": "More than 20 years later, Anthony Anderson is answering for a 2003 interview with a then underaged Lindsay Lohan that has not aged well.\r\nAfter a clip of the 2x Golden Globe nominee guest hosting an … [+1206 chars]"
+      }
+    ]
+  }
 }

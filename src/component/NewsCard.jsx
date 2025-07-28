@@ -3,34 +3,36 @@ import placeholderImage from "/placeholder.png";
 const NewsCard = ({ News }) => {
   return (
     <div className="news-cards">
-      <div className="news-card flex flex-col gap-6 overflow-hidden w-full">
-        <div className="card-left rounded-lg w-full h-[300px] overflow-hidden">
-          <img
-            className="w-full h-full object-cover hover:scale-105 transition-all duration-200"
-            src={News.urlToImage ? News.urlToImage : placeholderImage}
-            alt={News.title}
-          />
-        </div>
-        <div className="card-right flex flex-col gap-2">
-          <div className="news-category flex gap-2">
-            <div className="category font-bold">Published In</div>
-            <div className="news-date text-gray-400">
-              {News.publishedAt.slice(0, 10)}
+      <a href={News.url} target="_blank">
+        <div className="news-card flex flex-col gap-6 overflow-hidden w-full">
+          <div className="card-left rounded-lg w-full h-[300px] overflow-hidden">
+            <img
+              className="w-full h-full object-cover hover:scale-105 transition-all duration-200"
+              src={News.urlToImage ? News.urlToImage : placeholderImage}
+              alt={News.title}
+            />
+          </div>
+          <div className="card-right flex flex-col gap-2">
+            <div className="news-category flex gap-2">
+              <div className="category font-bold">Published In</div>
+              <div className="news-date text-gray-400">
+                {News.publishedAt.slice(0, 10)}
+              </div>
+            </div>
+            <div className="news-headline text-lg font-bold">{News.title}</div>
+            <div className="news-desc text-gray-400">{News.description}</div>
+            <div className="news-source font-bold">
+              {News.author ? News.author : "Unkown"}
+
+              {News.author ? (
+                <p className="text-gray-400 font-normal">Author</p>
+              ) : (
+                <p className="text-gray-400 font-normal">Unknown Author</p>
+              )}
             </div>
           </div>
-          <div className="news-headline text-lg font-bold">{News.title}</div>
-          <div className="news-desc text-gray-400">{News.description}</div>
-          <div className="news-source font-bold">
-            {News.author ? News.author : "Unkown"}
-
-            {News.author ? (
-              <p className="text-gray-400 font-normal">Author</p>
-            ) : (
-              <p className="text-gray-400 font-normal">Unknown Author</p>
-            )}
-          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

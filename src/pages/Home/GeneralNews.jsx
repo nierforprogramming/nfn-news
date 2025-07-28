@@ -7,7 +7,8 @@ const GeneralNews = () => {
 
   useEffect(() => {
     async function fetchNews() {
-      const { data } = await getCategoricalNews("general");
+      const returnedData = await getCategoricalNews("general");
+      const data = returnedData.data.articles;
       if (data) {
         const shuffled = [...data].sort(() => Math.random() - 0.5);
         setNews(shuffled.slice(0, 6));
