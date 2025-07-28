@@ -4,8 +4,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   return (
-    <div className="nav-container border-b border-gray-400">
-      <div className="nav-wrapper mx-auto px-32">
+    <div className="nav-container border-b border-gray-400 relative">
+      <div className="nav-wrapper mx-auto px-32 fixed top-0 w-full bg-white z-50">
         <header className="flex justify-between pt-5 pb-5">
           <div className="nav nav-search-bar flex items-center px-3 border-1 border-gray-400 rounded-full">
             <div className="search-bar-icon p-2">

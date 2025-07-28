@@ -112,6 +112,10 @@ body {
     background-color: magenta; /* light yellow */
   }
 
+  .home-container {
+    margin-top: 12rem;
+  }
+
   .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
     margin-top: 1rem;
     position: relative;
@@ -141,6 +145,10 @@ body {
 @media (max-width: 767px) {
   body {
     background-color: green; /* light blue */
+  }
+
+  .home-container {
+    margin-top: 15rem;
   }
 
   .section-heading {

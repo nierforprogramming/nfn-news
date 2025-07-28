@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="home-container">
+      <div className="home-container mt-32">
         <div className="home-wrapper">
           <div className="section-heading text-center mt-15 mb-15">
             <h1 className="text-4xl font-bold">Trending News</h1>
