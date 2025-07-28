@@ -30,9 +30,9 @@ function TrendingNewsSlider({ topHeadlines }) {
           return (
             <SwiperSlide key={topHeadline.id}>
               <div className="news-slider flex items-center gap-10 overflow-hidden">
-                <div className="slider-left rounded-2xl w-[500px] h-[300px] flex-shrink-0 overflow-hidden">
+                <div className="slider-left rounded-lg w-[500px] h-[300px] flex-shrink-0 overflow-hidden">
                   <img
-                    className="w-full h-full object-cover overflow-hidden rounded-2xl"
+                    className="w-full h-full object-cover hover:scale-105 transition-all duration-200"
                     src={
                       topHeadline.urlToImage
                         ? topHeadline.urlToImage

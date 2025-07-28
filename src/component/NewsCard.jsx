@@ -4,9 +4,9 @@ const NewsCard = ({ News }) => {
   return (
     <div className="news-cards">
       <div className="news-card flex flex-col gap-6 overflow-hidden w-full">
-        <div className="card-left rounded-sm w-full h-[300px] overflow-hidden">
+        <div className="card-left rounded-lg w-full h-[300px] overflow-hidden">
           <img
-            className="w-full h-full object-cover overflow-hidden rounded-2xl"
+            className="w-full h-full object-cover hover:scale-105 transition-all duration-200"
             src={News.urlToImage ? News.urlToImage : placeholderImage}
             alt={News.title}
           />
