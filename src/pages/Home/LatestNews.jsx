@@ -8,8 +8,6 @@ const LatestNews = () => {
   useEffect(() => {
     async function fetchNews() {
       const returnedData = await getLatestNews();
-      console.log(returnedData);
-
       const data = returnedData.data.articles;
       if (data) {
         const shuffled = [...data].sort(() => Math.random() - 0.5);

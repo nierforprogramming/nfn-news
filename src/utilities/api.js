@@ -33,8 +33,18 @@ export async function getCategoricalNews(category) {
         return response         
         
     } catch (error) {
-        console.log(error.message);
-        
+        console.log(error.message)
     }
 }
 
+ export const fetchSearchResults = async (params) => {
+    try {
+      const res = await axios.get("https://newsapi.org/v2/everything", {
+        params
+      });
+     
+    return res
+    } catch (err) {
+      console.error(err);
+    }
+  };

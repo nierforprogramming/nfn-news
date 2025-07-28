@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaFacebook, FaInstagram, FaSearch, FaTwitter } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaX } from "react-icons/fa6";
+import { Link, useNavigate } from "react-router-dom";
 
 const sections = [
   ["Home", "home"],
@@ -17,6 +18,15 @@ const sections = [
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("home");
   const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const navigate = useNavigate();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (query.trim() !== "") {
+      navigate(`/search?q=${encodeURIComponent(query)}`);
+    }
+  };
 
   const handleClick = () => setOpen((prev) => !prev);
 
@@ -51,20 +61,24 @@ const Navbar = () => {
             <div className="search-bar-icon p-2">
               <FaSearch className="text-gray-400 text-xs" />
             </div>
-            <input
-              className="nav-search-input outline-none border-none w-full py-1"
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Search"
-            />
+            <form onSubmit={handleSearch}>
+              <input
+                className="nav-search-input outline-none border-none w-full py-1"
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+              />
+            </form>
           </div>
 
           <div className="nav nav-logo">
-            <a href="#home" className="text-2xl font-bold cursor-pointer">
+            <Link to={"/"} className="text-2xl font-bold cursor-pointer">
               NF<span className=" inline text-[var(--accent-color)]">N</span>{" "}
               NEWS
-            </a>
+            </Link>
           </div>
 
           <div className="third flex gap-2">
