@@ -45,7 +45,7 @@ const NewsList = () => {
 
   return (
     <div className="news-search-container mt-32">
-      <h1 className="text-2xl font-bold text-center">
+      <h1 className="text-2xl font-bold text-center pt-18 md:pt-5">
         Search Results for: <span className="italic">{query}</span>
       </h1>
       <div className="ns-wrapper">
@@ -53,10 +53,10 @@ const NewsList = () => {
           <div className="text-center text-gray-500">Loading...</div>
         ) : (
           <>
-            <div className="news-cards w-full px-34 py-1">
+            <div className="news-cards w-full px-34 lg:px-8 xl:px-34 py-1">
               {articles.map((News, idx) => (
                 <a key={News.title} href={News.url} target="_blank">
-                  <div className="news-card grid grid-cols-2 overflow-hidden w-full gap-14 my-14">
+                  <div className="news-card grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 md:my-14 my-3 overflow-hidden w-full gap-14">
                     <div className="card-left rounded-lg w-full h-[300px] overflow-hidden">
                       <img
                         className="w-full h-full object-cover hover:scale-105 transition-all duration-200"

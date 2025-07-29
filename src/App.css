@@ -70,6 +70,19 @@ body {
     width: 300px;
   }
 
+  .ns-wrapper {
+    margin: 0 auto;
+  }
+
+  .ns-wrapper .news-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+
+  .ns-wrapper .news-card {
+    width: 100%;
+  }
+
   .f-cta-heading {
     padding-inline: 2rem;
   }
@@ -151,6 +164,9 @@ body {
 
 /* ≤ 767px — Small Devices */
 @media (max-width: 767px) {
+  body {
+    background-color: lightgrey;
+  }
   .home-container {
     margin-top: 15rem;
   }
@@ -205,6 +221,9 @@ body {
 
 /* ≤ 599px — Extra Small Devices (Phones) */
 @media (max-width: 599px) {
+  body {
+    background-color: yellowgreen;
+  }
   .nav-wrapper {
     padding: 1.25rem;
   }
@@ -252,5 +271,16 @@ body {
 
   .news-headline {
     font-size: 1.7rem;
+  }
+}
+
+/* iPhone SE */
+@media (max-width: 376px) {
+  body {
+    background-color: cadetblue;
+  }
+
+  .news-card {
+    padding-inline: 20px;
   }
 }
