@@ -4,9 +4,7 @@ export async function getNews() {
     try {
         const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${import.meta.env.VITE_API_KEY}`)
         return response
-        //  const response = await axios.get('http://localhost:3000/data')
-        // return response       
-        
+    
     } catch (error) {
         console.log(error.message);
         
@@ -16,7 +14,6 @@ export async function getNews() {
 export async function getLatestNews() {
     try {
         const response = await axios.get(`https://newsapi.org/v2/everything?q=latest+news&apiKey=${import.meta.env.VITE_API_KEY}`)
-        // const response = await axios.get('http://localhost:3002/data')
         return response        
         
     } catch (error) {
@@ -28,9 +25,7 @@ export async function getLatestNews() {
 export async function getCategoricalNews(category) {
     try {
         const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${import.meta.env.VITE_API_KEY}`)
-        return response 
-        //  const response = await axios.get('http://localhost:3001/data')
-        // return response         
+        return response        
         
     } catch (error) {
         console.log(error.message)
@@ -39,8 +34,7 @@ export async function getCategoricalNews(category) {
 
  export const fetchSearchResults = async (params) => {
     try {
-         const res = await axios.get('http://localhost:3003/data'
-    //   const res = await axios.get("https://newsapi.org/v2/everything"
+      const res = await axios.get("https://newsapi.org/v2/everything"
         , {
         params
       });

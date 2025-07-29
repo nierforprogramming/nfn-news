@@ -1,15 +1,12 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 import placeholderImage from "/placeholder.png";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "swiper/css/autoplay"; // Don't forget to import autoplay styles if you plan to use them
+import "swiper/css/autoplay";
 
 function TrendingNewsSlider({ topHeadlines }) {
   return (
