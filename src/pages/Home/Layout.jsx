@@ -8,15 +8,32 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
+
       {apiError ? (
         <div className="flex flex-col items-center justify-center min-h-[50vh] bg-red-50 text-red-700 p-10 text-center">
-          <h1 className="text-3xl font-bold mb-4">⚠️ API Limit Reached</h1>
-          <p className="text-lg">{apiError}</p>
-          <p className="mt-2 text-gray-600">Please try again later.</p>
+          <h1 className="text-3xl font-bold mb-4">
+            ⚠️
+            {apiError.status === 402
+              ? "API Limit Reached"
+              : apiError.status === 401
+              ? "Unauthorized"
+              : apiError.status === 403
+              ? "Access Denied"
+              : apiError.status === 404
+              ? "Data Not Found"
+              : "Something Went Wrong"}
+          </h1>
+
+          <p className="text-lg">{apiError.message}</p>
+
+          <p className="mt-2 text-gray-600">
+            Please try again later or refresh the page.
+          </p>
         </div>
       ) : (
         children
       )}
+
       <Footer />
     </>
   );

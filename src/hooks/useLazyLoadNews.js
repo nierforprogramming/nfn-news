@@ -18,13 +18,13 @@ export const useLazyLoad = (
           try {
             const result = await onVisibleCallback(); // api call for different category
             if (result?.error) {
-              setApiError(result.message || "An error occurred.");
+              setApiError(result || "An error occurred.");
             } else {
               setHasLoaded(true); // data loaded
               observerInstance.unobserve(entry.target); //prevents multiple api calls while scrolling
             }
           } catch (err) {
-            setApiError(err.message || "An unexpected error occurred.");
+            setApiError(err || "An unexpected error occurred.");
           }
         }
       },
