@@ -59,7 +59,7 @@ export async function getTopNews() {
     } else if (status === 404) {
       message = "Requested resource not found.";
     } else if (status === 402) {
-      message = "API limit reached. Please try again later.";
+      message = "API limit reached. Please wait for a day.";
     } else if (status >= 500) {
       message = "Server error. Please try again later.";
     }
@@ -75,20 +75,22 @@ export async function getTopNews() {
 // Latest News
 export async function getLatestNews() {
   try {
-    // const { data } = await axios.get(
-    //   `https://api.thenewsapi.com/v1/news/all?api_token=${
-    //     import.meta.env.VITE_THE_NEWS_API_KEY
-    //   }&language=en&limit=3`
-    // );
-    // if (data?.data?.length) {
-    //   return data?.data;
+    const { data } = await axios.get(
+      `https://api.thenewsapi.com/v1/news/all?api_token=${
+        import.meta.env.VITE_THE_NEWS_API_KEY
+      }&language=en&limit=3`
+    );
+    if (data?.data?.length) {
+      return data?.data;
+    }
+
+    // const { data } = await axios.get("http://localhost:3001/data");
+
+    // if (data.length) {
+    //   return data;
+
     // }
-
-    const { data } = await axios.get("http://localhost:3001/data");
-
-    if (data.length) {
-      return data;
-    } else {
+    else {
       return {
         error: true,
         status: 204,
@@ -107,7 +109,7 @@ export async function getLatestNews() {
     } else if (status === 404) {
       message = "Requested resource not found.";
     } else if (status === 402) {
-      message = "API limit reached. Please try again later.";
+      message = "API limit reached. Please wait for a day.";
     } else if (status >= 500) {
       message = "Server error. Please try again later.";
     }
@@ -123,13 +125,15 @@ export async function getLatestNews() {
 // Category based News
 export async function getCategoryNews(category) {
   try {
-    // Real API call
-    // const { data } = await axios.get(
-    //   `https://api.thenewsapi.com/v1/news/all?api_token=${import.meta.env.VITE_THE_NEWS_API_KEY}&categories=${category}&language=en&limit=3`
-    // );
+    // API call
+    const { data } = await axios.get(
+      `https://api.thenewsapi.com/v1/news/all?api_token=${
+        import.meta.env.VITE_THE_NEWS_API_KEY
+      }&categories=${category}&language=en&limit=3`
+    );
 
     // Mock API for development/testing
-    const { data } = await axios.get("http://localhost:3002/data");
+    // const { data } = await axios.get("http://localhost:3002/data");
 
     if (data?.data?.length) {
       return data.data;
@@ -152,7 +156,7 @@ export async function getCategoryNews(category) {
     } else if (status === 404) {
       message = "Requested resource not found.";
     } else if (status === 402) {
-      message = "API limit reached. Please try again later.";
+      message = "API limit reached. Please wait for a day.";
     } else if (status >= 500) {
       message = "Server error. Please try again later.";
     }
