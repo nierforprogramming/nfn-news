@@ -1,5 +1,4 @@
-import { createContext, useEffect, useState } from "react";
-import { getLatestNews, getTopNews } from "../utilities/api";
+import { createContext, useState } from "react";
 
 const NewsContext = createContext();
 
@@ -16,28 +15,6 @@ function NewsContextProvider(props) {
     technology: [],
   });
   const [apiError, setApiError] = useState(null);
-
-  // Trending News
-  useEffect(() => {
-    async function _getTopNews() {
-      const data = await getTopNews();
-      if (data.length) {
-        setNews(data);
-      }
-    }
-    _getTopNews();
-  }, []);
-
-  // Latest News
-  // useEffect(() => {
-  //   async function _getLatestNews() {
-  //     const data = await getLatestNews();
-  //     if (data.length) {
-  //       setLatestNews(data);
-  //     }
-  //   }
-  //   _getLatestNews();
-  // }, []);
 
   const value = {
     news,
