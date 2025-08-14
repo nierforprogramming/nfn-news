@@ -1,5 +1,6 @@
 // hooks/useLazyLoad.js
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useContext } from "react";
+import { NewsContext } from "../context/NewsContext";
 
 export const useLazyLoad = (
   onVisibleCallback,
@@ -7,16 +8,28 @@ export const useLazyLoad = (
 ) => {
   const sectionRef = useRef(null);
   const [hasLoaded, setHasLoaded] = useState(false);
+  const { apiError, setApiError } = useContext(NewsContext);
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries, observerInstance) => {
-      const entry = entries[0];
-      if (entry.isIntersecting && !hasLoaded) {
-        onVisibleCallback(); // fetches data passed from specific component
-        setHasLoaded(true);
-        observerInstance.unobserve(entry.target); // prevents from re-fetching data everytime section comes into view
-      }
-    }, options);
+    const observer = new IntersectionObserver(
+      async (entries, observerInstance) => {
+        const entry = entries[0];
+        if (entry.isIntersecting && !hasLoaded) {
+          try {
+            const result = await onVisibleCallback(); // api call for different category
+            if (result?.error) {
+              setApiError(result.message || "An error occurred.");
+            } else {
+              setHasLoaded(true); // data loaded
+              observerInstance.unobserve(entry.target); //prevents multiple api calls while scrolling
+            }
+          } catch (err) {
+            setApiError(err.message || "An unexpected error occurred.");
+          }
+        }
+      },
+      options
+    );
 
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
@@ -27,7 +40,7 @@ export const useLazyLoad = (
         observer.unobserve(sectionRef.current);
       }
     };
-  }, [hasLoaded, onVisibleCallback, options]);
+  }, [hasLoaded, onVisibleCallback, options, setApiError]);
 
   return { sectionRef, hasLoaded };
 };

@@ -1,6 +1,6 @@
 import placeholderImage from "/placeholder.png";
 
-const NewsCard = ({ News }) => {
+const NewsCard = ({ News, category }) => {
   return (
     <div className="news-cards">
       <a href={News.url} target="_blank">
@@ -15,11 +15,9 @@ const NewsCard = ({ News }) => {
           <div className="card-right flex flex-col gap-2">
             <div className="news-category flex gap-2">
               <div className="category font-bold">
-                {News.categories.map((category) => (
-                  <span key={category} className="mr-1 capitalize">
-                    {category}
-                  </span>
-                ))}
+                <span key={category} className="mr-1 capitalize">
+                  {category}
+                </span>
               </div>
               <div className="news-date text-gray-400">
                 {News?.published_at.slice(0, 10)}

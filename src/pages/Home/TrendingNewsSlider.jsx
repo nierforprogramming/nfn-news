@@ -7,8 +7,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
+import NewsCardSkeleton from "../../component/NewsCardSkeleton";
 
-function TrendingNewsSlider({ topHeadlines }) {
+function TrendingNewsSlider({ topHeadlines, category }) {
+  const isLoading = !topHeadlines || topHeadlines.length === 0;
+
   return (
     <div className="headline-sliders">
       <Swiper
@@ -23,62 +26,57 @@ function TrendingNewsSlider({ topHeadlines }) {
         }}
         className="mySwiper"
       >
-        {topHeadlines?.map((topHeadline) => {
-          return (
-            <SwiperSlide key={topHeadline.id}>
-              <a href={topHeadline.url} target="_blank">
-                <div className="news-slider flex items-center gap-10 overflow-hidden">
-                  <div className="slider-left rounded-lg w-[500px] h-[300px] flex-shrink-0 overflow-hidden">
-                    <img
-                      className="w-full h-full object-cover hover:scale-105 transition-all duration-200"
-                      src={
-                        topHeadline.image_url
-                          ? topHeadline.image_url
-                          : placeholderImage
-                      }
-                      alt={topHeadline.title}
-                    />
-                  </div>
-                  <div className="slider-right flex flex-col gap-2">
-                    <div className="news-category flex gap-2">
-                      <div className="category font-bold capitalize pl-1">
-                        {topHeadline.categories.map((category) => (
+        {isLoading
+          ? [...Array(3)].map((_, index) => (
+              <SwiperSlide key={`skeleton-${index}`}>
+                <NewsCardSkeleton />
+              </SwiperSlide>
+            ))
+          : topHeadlines.map((topHeadline) => (
+              <SwiperSlide key={topHeadline.id}>
+                <a href={topHeadline.url} target="_blank">
+                  <div className="news-slider flex items-center gap-10 overflow-hidden">
+                    <div className="slider-left rounded-lg w-[500px] h-[300px] flex-shrink-0 overflow-hidden">
+                      <img
+                        className="w-full h-full object-cover hover:scale-105 transition-all duration-200"
+                        src={
+                          topHeadline.image_url
+                            ? topHeadline.image_url
+                            : placeholderImage
+                        }
+                        alt={topHeadline.title}
+                      />
+                    </div>
+                    <div className="slider-right flex flex-col gap-2">
+                      <div className="news-category flex gap-2">
+                        <div className="category font-bold capitalize pl-1">
                           <span key={category} className="mr-1 capitalize">
                             {category}
                           </span>
-                        ))}
+                        </div>
+                        <div className="news-date text-gray-400">
+                          {topHeadline.published_at.slice(0, 10)}
+                        </div>
                       </div>
-                      <div className="news-date text-gray-400">
-                        {topHeadline.published_at.slice(0, 10)}
+                      <div className="news-headline text-4xl font-bold">
+                        {topHeadline.title}
                       </div>
-                    </div>
-                    <div className="news-headline text-4xl font-bold">
-                      {topHeadline.title}
-                    </div>
-                    <div className="news-desc text-gray-400">
-                      {topHeadline.snippet}
-                    </div>
-                    <div className="news-source font-bold">
-                      <p className="uppercase">
-                        {topHeadline.source
-                          ? topHeadline.source.replace(".com", "")
-                          : "Unkown"}
-                      </p>
-
-                      {topHeadline.source ? (
-                        <p className="text-gray-400 font-normal">Source</p>
-                      ) : (
-                        <p className="text-gray-400 font-normal">
-                          Unknown Source
+                      <div className="news-desc text-gray-400">
+                        {topHeadline.snippet}
+                      </div>
+                      <div className="news-source font-bold">
+                        <p className="uppercase">
+                          {topHeadline.source ? topHeadline.source : "Unknown"}
                         </p>
-                      )}
+                        <p className="text-gray-400 font-normal">
+                          {topHeadline.source ? "Source" : "Unknown Source"}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-            </SwiperSlide>
-          );
-        })}
+                </a>
+              </SwiperSlide>
+            ))}
       </Swiper>
     </div>
   );

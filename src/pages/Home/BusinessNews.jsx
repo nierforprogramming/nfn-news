@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext } from "react";
 import NewsCard from "../../component/NewsCard";
 import { NewsContext } from "../../context/NewsContext";
 import { getCategoryNews } from "../../utilities/api";
@@ -6,11 +6,19 @@ import { useLazyLoad } from "../../hooks/useLazyLoadNews";
 import NewsCardSkeleton from "../../component/NewsCardSkeleton";
 
 const BusinessNews = () => {
+  const category = "business";
   const { categoryNews, setCategoryNews } = useContext(NewsContext);
+
   const { sectionRef, hasLoaded } = useLazyLoad(async () => {
-    const data = await getCategoryNews("business");
-    setCategoryNews(data);
+    const data = await getCategoryNews(category);
+    setCategoryNews((prev) => ({
+      ...prev,
+      [category]: data,
+    }));
+    return data;
   });
+
+  const newsList = categoryNews[category] || [];
 
   return (
     <div ref={sectionRef} className="ln-container min-h-screen py-10 border-b">
@@ -20,9 +28,9 @@ const BusinessNews = () => {
         </div>
 
         <div className="latest-news grid grid-cols-1 lg:grid-cols-3 gap-10">
-          {categoryNews.length > 0 ? (
-            categoryNews.map((singleNews) => (
-              <NewsCard key={singleNews.title} News={singleNews} />
+          {newsList.length > 0 ? (
+            newsList.map((news) => (
+              <NewsCard key={news.title} News={news} category={category} />
             ))
           ) : hasLoaded ? (
             <NewsCardSkeleton />
