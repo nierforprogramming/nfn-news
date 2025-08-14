@@ -1,33 +1,34 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import NewsCard from "../../component/NewsCard";
-import { getCategoricalNews } from "../../utilities/api";
+import { NewsContext } from "../../context/NewsContext";
+import { getCategoryNews } from "../../utilities/api";
+import { useLazyLoad } from "../../hooks/useLazyLoadNews";
+import NewsCardSkeleton from "../../component/NewsCardSkeleton";
 
 const BusinessNews = () => {
-  const [news, setNews] = useState([]);
+  const { categoryNews, setCategoryNews } = useContext(NewsContext);
+  const { sectionRef, hasLoaded } = useLazyLoad(async () => {
+    const data = await getCategoryNews("business");
+    setCategoryNews(data);
+  });
 
-  useEffect(() => {
-    async function fetchNews() {
-      const returnedData = await getCategoricalNews("business");
-      const data = returnedData.data.articles;
-
-      if (data) {
-        const shuffled = [...data].sort(() => Math.random() - 0.5);
-        setNews(shuffled.slice(0, 6));
-      }
-    }
-
-    fetchNews();
-  }, []);
   return (
-    <div className="ln-container">
+    <div ref={sectionRef} className="ln-container min-h-screen py-10 border-b">
       <div className="ln-wrapper">
         <div className="section-heading text-center mt-15 mb-15">
           <h1 className="text-4xl font-bold">Business News</h1>
         </div>
+
         <div className="latest-news grid grid-cols-1 lg:grid-cols-3 gap-10">
-          {news.map((News) => {
-            return <NewsCard key={News.title} News={News} />;
-          })}
+          {categoryNews.length > 0 ? (
+            categoryNews.map((singleNews) => (
+              <NewsCard key={singleNews.title} News={singleNews} />
+            ))
+          ) : hasLoaded ? (
+            <NewsCardSkeleton />
+          ) : (
+            [...Array(6)].map((_, index) => <NewsCardSkeleton key={index} />)
+          )}
         </div>
       </div>
     </div>

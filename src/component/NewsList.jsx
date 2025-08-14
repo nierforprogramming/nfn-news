@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 import placeholderImage from "/placeholder.png";
-import { fetchSearchResults } from "../utilities/api";
 
 const PAGE_SIZE = 6;
 const NewsList = () => {

@@ -8,9 +8,13 @@ import { GiTalk } from 'react-icons/gi'
 export default defineConfig({
   plugins: [react(),  tailwindcss(),],
  server: {
-  host: true,     
-  port: 5173,
-  allowedHosts: ['chatty-pillows-dance.loca.lt']
+ proxy: {
+      '/api': {
+        target: 'https://api.currentsapi.services',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
 }
      
 })

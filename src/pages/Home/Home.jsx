@@ -1,22 +1,9 @@
-import { useEffect, useState } from "react";
-import { getNews } from "../../utilities/api";
+import { useContext, useEffect, useState } from "react";
 import TrendingNewsSlider from "./TrendingNewsSlider";
+import { NewsContext } from "../../context/NewsContext";
 
 const Home = () => {
-  const [news, setNews] = useState([]);
-
-  useEffect(() => {
-    async function fetchNews() {
-      const returnedData = await getNews();
-      const data = returnedData.data.articles;
-      if (data) {
-        const shuffled = [...data].sort(() => Math.random() - 0.5);
-        setNews(shuffled.slice(0, 10));
-      }
-    }
-
-    fetchNews();
-  }, []);
+  const { news } = useContext(NewsContext);
 
   return (
     <>

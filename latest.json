@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "found": 16441407,
+    "returned": 3,
+    "limit": 3,
+    "page": 1
+  },
+  "data": [
+    {
+      "uuid": "8227ce7b-7533-4941-970a-054e387a3235",
+      "title": "Eggplant Runner",
+      "description": "Allow Jenkins administrators to add customized build step that integrated with DAI Rest API services to perform test execution.",
+      "keywords": "",
+      "snippet": "Introduction\n\nThe Eggplant DAI Plugin for Jenkins launches DAI tests from within a Jenkins pipeline. You can use it to continuously test your application using ...",
+      "url": "https://plugins.jenkins.io/eggplant-runner",
+      "image_url": "https://jenkins.io/images/logo-title-opengraph.png",
+      "language": "en",
+      "published_at": "2025-08-14T03:34:23.000000Z",
+      "source": "jenkins.io",
+      "categories": ["tech"],
+      "relevance_score": null
+    },
+    {
+      "uuid": "d94b1502-ca6e-4144-80e0-b2eac6c57da6",
+      "title": "John Daly II among winners in first round of U.S. Amateur",
+      "description": "John Daly II, a senior-to-be at Arkansas, was among 32 players who won their matches Wednesday in the first round of match play at the U.S. Amateur, where five ...",
+      "keywords": "",
+      "snippet": "Open Extended Reactions\n\nSAN FRANCISCO -- The son of two-time major champion John Daly was among 32 players who won their matches Wednesday in the first round o...",
+      "url": "https://www.espn.com/golf/story/_/id/45970371/john-daly-ii-winners-first-round-us-amateur-olympic-club",
+      "image_url": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0814%2Fr1531544_1296x729_16%2D9.jpg",
+      "language": "en",
+      "published_at": "2025-08-14T03:33:27.000000Z",
+      "source": "espn.com",
+      "categories": ["sports"],
+      "relevance_score": null
+    },
+    {
+      "uuid": "22d364de-b10d-4d3e-bcbd-9eb5f3943b86",
+      "title": "El gobierno de Trump ahora considera 11 posibles candidatos para un potencial reemplazo del jefe de la Reserva Federal",
+      "description": "La administración Trump está considerando a 11 posibles sucesores del presidente de la Reserva Federal, Jerome Powell, cuyo mandato finaliza en mayo. Estos ca...",
+      "keywords": "",
+      "snippet": "The technical storage or access that is used exclusively for statistical purposes.\n\nThe technical storage or access that is used exclusively for anonymous stati...",
+      "url": "https://www.oann.com/noticias-latinas/el-gobierno-de-trump-ahora-considera-11-posibles-candidatos-para-un-potencial-reemplazo-del-jefe-de-la-reserva-federal/",
+      "image_url": "https://www.oann.com/wp-content/uploads/2025/08/FOR-WEBSITE-ARTICLES-2025-08-13T120142.371.png",
+      "language": "en",
+      "published_at": "2025-08-14T03:33:22.000000Z",
+      "source": "oann.com",
+      "categories": ["general", "politics"],
+      "relevance_score": null
+    }
+  ]
+}

@@ -23,7 +23,7 @@ function TrendingNewsSlider({ topHeadlines }) {
         }}
         className="mySwiper"
       >
-        {topHeadlines.map((topHeadline) => {
+        {topHeadlines?.map((topHeadline) => {
           return (
             <SwiperSlide key={topHeadline.id}>
               <a href={topHeadline.url} target="_blank">
@@ -32,8 +32,8 @@ function TrendingNewsSlider({ topHeadlines }) {
                     <img
                       className="w-full h-full object-cover hover:scale-105 transition-all duration-200"
                       src={
-                        topHeadline.urlToImage
-                          ? topHeadline.urlToImage
+                        topHeadline.image_url
+                          ? topHeadline.image_url
                           : placeholderImage
                       }
                       alt={topHeadline.title}
@@ -41,25 +41,35 @@ function TrendingNewsSlider({ topHeadlines }) {
                   </div>
                   <div className="slider-right flex flex-col gap-2">
                     <div className="news-category flex gap-2">
-                      <div className="category font-bold">Published In</div>
+                      <div className="category font-bold capitalize pl-1">
+                        {topHeadline.categories.map((category) => (
+                          <span key={category} className="mr-1 capitalize">
+                            {category}
+                          </span>
+                        ))}
+                      </div>
                       <div className="news-date text-gray-400">
-                        {topHeadline.publishedAt.slice(0, 10)}
+                        {topHeadline.published_at.slice(0, 10)}
                       </div>
                     </div>
                     <div className="news-headline text-4xl font-bold">
                       {topHeadline.title}
                     </div>
                     <div className="news-desc text-gray-400">
-                      {topHeadline.description}
+                      {topHeadline.snippet}
                     </div>
                     <div className="news-source font-bold">
-                      {topHeadline.author ? topHeadline.author : "Unkown"}
+                      <p className="uppercase">
+                        {topHeadline.source
+                          ? topHeadline.source.replace(".com", "")
+                          : "Unkown"}
+                      </p>
 
-                      {topHeadline.author ? (
-                        <p className="text-gray-400 font-normal">Author</p>
+                      {topHeadline.source ? (
+                        <p className="text-gray-400 font-normal">Source</p>
                       ) : (
                         <p className="text-gray-400 font-normal">
-                          Unknown Author
+                          Unknown Source
                         </p>
                       )}
                     </div>

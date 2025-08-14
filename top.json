@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "found": 1479433,
+    "returned": 3,
+    "limit": 3,
+    "page": 1
+  },
+  "data": [
+    {
+      "uuid": "778dadae-f34a-4d69-a867-94954251ebcf",
+      "title": "Ahead of the Trump-Putin summit, don’t forget what we owe Ukraine",
+      "description": "The U.S. has an obligation to defend Ukraine — and democratic values",
+      "keywords": "",
+      "snippet": "On Friday, on American soil, President Donald Trump will entertain a brutal war criminal whose critics are poisoned, imprisoned or dropped from high-story windo...",
+      "url": "https://www.salon.com/2025/08/13/ahead-of-the-trump-putin-summit-dont-forget-what-we-owe-ukraine/",
+      "image_url": "https://www.salon.com/app/uploads/2024/11/donald_trump_vladimir_putin_2182721460_2181073067.jpg",
+      "language": "en",
+      "published_at": "2025-08-13T13:00:20.000000Z",
+      "source": "salon.com",
+      "categories": ["general"],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "4b6f6645-d9df-46ce-8ad6-4686ca3f16b5",
+      "title": "Kid Cudi reveals some of his darkest moments amid rise to fame in new memoir: \"There was a huge spotlight on me\"",
+      "description": "In one of his most candid conversations in years, Kid Cudi tells",
+      "keywords": "Books, Music",
+      "snippet": "Kid Cudi isn't holding back. In his new book, \"Cudi: The Memoir,\" the rapper – whose real name is Scott Mescudi – reveals some of the darkest hours early in...",
+      "url": "https://www.cbsnews.com/news/kid-cudi-reveals-dark-moments-new-memoir-cbs-mornings-interview/",
+      "image_url": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/13/03e3bd44-a8df-4b3d-ac9a-93994d3415c6/thumbnail/1200x630/5e6120f42d8438ef1f09b052eec3f3a7/screenshot-2025-08-12-at-10-01-59-pm.png",
+      "language": "en",
+      "published_at": "2025-08-13T12:54:25.000000Z",
+      "source": "cbsnews.com",
+      "categories": ["general", "politics"],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "6a310b42-9e75-4a5c-b37e-b2c6a3c8a968",
+      "title": "Extended interview: Kid Cudi gets candid in new memoir",
+      "description": "In his first TV interview about his new book,",
+      "keywords": "Books, Music, Sean Diddy Combs",
+      "snippet": "Extended interview: Kid Cudi gets candid in new memoir In his first TV interview about his new book, \"Cudi: The Memoir,\" Scott Mescudi, known as rapper Kid Cudi...",
+      "url": "https://www.cbsnews.com/video/extended-interview-kid-cudi-gets-candid-in-new-memoir/",
+      "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2025/08/13/1342a69c-d239-4d1c-8b7c-04d85b24e768/thumbnail/1200x630/9277465bcf2f75842f2e75239e18a79d/0813-cmo-cudi.jpg",
+      "language": "en",
+      "published_at": "2025-08-13T12:51:00.000000Z",
+      "source": "cbsnews.com",
+      "categories": ["general", "politics"],
+      "relevance_score": null,
+      "locale": "us"
+    }
+  ]
+}

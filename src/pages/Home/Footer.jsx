@@ -1,6 +1,4 @@
-import React from "react";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
-
 const Footer = () => {
   return (
     <div className="footer-container pb-20 pt-24">
@@ -43,6 +41,9 @@ const Footer = () => {
           <div className="f-rights text-sm">
             <p className="f-copyright text-gray-400 text-center pb-8">
               Copyright ©2025 All rights reserved | NFN News
+            </p>
+            <p className="text-gray-400 text-center">
+              <a href="https://worldnewsapi.com/">World News API</a>
             </p>
             <p className="f-terms text-gray-400 text-center">
               Terms & Conditions/ Privacy Policy

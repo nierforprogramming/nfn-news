@@ -110,6 +110,10 @@ body {
     gap: 1rem;
     justify-content: space-between;
   }
+
+  .news-cards {
+    display: flex;
+  }
 }
 
 /* iPad Air */
