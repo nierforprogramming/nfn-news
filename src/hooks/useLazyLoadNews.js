@@ -4,7 +4,7 @@ import { NewsContext } from "../context/NewsContext";
 
 export const useLazyLoad = (
   onVisibleCallback,
-  options = { threshold: 0.5 }
+  options = { threshold: 0.25 }
 ) => {
   const sectionRef = useRef(null);
   const [hasLoaded, setHasLoaded] = useState(false);

@@ -11,6 +11,8 @@ const LatestNews = () => {
   const { sectionRef, hasLoaded } = useLazyLoad(async () => {
     const data = await getLatestNews();
     setLatestNews(data);
+    console.log(data);
+
     return data;
   });
 
@@ -24,7 +26,7 @@ const LatestNews = () => {
           {latestNews.length > 0 ? (
             latestNews.map((singleNews) => (
               <NewsCard
-                key={singleNews.title}
+                key={singleNews.uuid}
                 News={singleNews}
                 category={category}
               />

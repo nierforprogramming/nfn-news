@@ -30,7 +30,7 @@ const EntertainmentNews = () => {
         <div className="latest-news grid grid-cols-1 lg:grid-cols-3 gap-10">
           {newsList.length > 0 ? (
             newsList.map((news) => (
-              <NewsCard key={news.title} News={news} category={category} />
+              <NewsCard key={news.uuid} News={news} category={category} />
             ))
           ) : hasLoaded ? (
             <NewsCardSkeleton />

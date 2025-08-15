@@ -15,9 +15,7 @@ const NewsCard = ({ News, category }) => {
           <div className="card-right flex flex-col gap-2">
             <div className="news-category flex gap-2">
               <div className="category font-bold">
-                <span key={category} className="mr-1 capitalize">
-                  {category}
-                </span>
+                <span className="mr-1 capitalize">{category}</span>
               </div>
               <div className="news-date text-gray-400">
                 {News?.published_at.slice(0, 10)}

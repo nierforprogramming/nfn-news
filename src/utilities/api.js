@@ -81,6 +81,8 @@ export async function getLatestNews() {
       }&language=en&limit=3`
     );
     if (data?.data?.length) {
+      console.log(data);
+
       return data?.data;
     }
 
